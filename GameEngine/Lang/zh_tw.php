@@ -16,175 +16,175 @@
 									/////////////////////////////
 
 //MAIN MENU
-define("TRIBE1","罗马");
-define("TRIBE2","条顿");
-define("TRIBE3","高卢");
+define("TRIBE1","羅馬");
+define("TRIBE2","條頓");
+define("TRIBE3","高盧");
 define("TRIBE4","自然");
-define("TRIBE5","纳塔");
-define("TRIBE6","野兽");
+define("TRIBE5","納塔");
+define("TRIBE6","野獸");
 
-define("HOME","主页");
-define("INSTRUCT","说明");
-define("ADMIN_PANEL","管理员面板");
-define("MASS_MESSAGE","群发消息");
+define("HOME","首頁");
+define("INSTRUCT","說明");
+define("ADMIN_PANEL","管理員面板");
+define("MASS_MESSAGE","群發消息");
 define("LOGOUT","登出");
-define("PROFILE","档案");
+define("PROFILE","檔案");
 define("SUPPORT","支持");
 define("UPDATE_T_10","更新前十");
-define("SYSTEM_MESSAGE","系统信息");
+define("SYSTEM_MESSAGE","系統資訊");
 define("TRAVIAN_PLUS","Travian <b><span class=\"plus_g\">P</span><span class=\"plus_o\">l</span><span class=\"plus_g\">u</span><span class=\"plus_o\">s</span></span></span></b>");
-define("CONTACT","联系我们");
-define("GAME_RULES","游戏规则");
+define("CONTACT","聯繫我們");
+define("GAME_RULES","遊戲規則");
 
 //MENU
-define("REG","注册");
-define("FORUM","论坛");
+define("REG","註冊");
+define("FORUM","論壇");
 define("CHAT","聊天");
-define("IMPRINT","信息");
-define("MORE_LINKS","更多链接");
-define("TOUR","观光");
+define("IMPRINT","資訊");
+define("MORE_LINKS","更多連結");
+define("TOUR","觀光");
 
 
 //ERRORS
-define("USRNM_EMPTY","(用户名为空)");
-define("USRNM_TAKEN","(用户名已被占用)");
-define("USRNM_SHORT","(用户名最少 ".USRNM_MIN_LENGTH." 个字符)");
-define("USRNM_CHAR","(含有不可用字符)");
-define("PW_EMPTY","(密码为空)");
-define("PW_SHORT","(用户名最少 ".PW_MIN_LENGTH." 个字符)");
-define("PW_INSECURE","(密码不安全，请采用更复杂的密码)");
-define("EMAIL_EMPTY","(邮箱地址为空)");
-define("EMAIL_INVALID","(不可用的邮箱地址)");
-define("EMAIL_TAKEN","(邮箱地址已被使用)");
-define("TRIBE_EMPTY","<li>请选择一个种族。</li>");
-define("AGREE_ERROR","<li>若要注册，请先同意游戏规则和T&C。</li>");
-define("LOGIN_USR_EMPTY","请输入用户名。");
-define("LOGIN_PASS_EMPTY","请输入密码。");
-define("EMAIL_ERROR","邮箱地址未知。");
-define("PASS_MISMATCH","密码不匹配。");
-define("ALLI_OWNER","在删除前，请先指派新盟主。");
-define("SIT_ERROR","代管人已经设置或不存在。");
-define("USR_NT_FOUND","用户名不存在。");
-define("LOGIN_PW_ERROR","密码错误。");
-define("WEL_TOPIC","实用讯息");
-define("ATAG_EMPTY","标签为空");
-define("ANAME_EMPTY","名称为空");
-define("ATAG_EXIST","标签已占用");
-define("ANAME_EXIST","名称已占用");
-define("ALREADY_ALLY_MEMBER","你已经在联盟中");
-define("ALLY_TOO_LOW", "你必须拥有3级或更高等级的大使馆");
-define("USER_NOT_IN_YOUR_ALLY","该用户不在你的联盟中。");
-define("CANT_EDIT_YOUR_PERMISSIONS","你不能更改自己的权限");
-define("CANT_EDIT_LEADER_PERMISSIONS","盟主的权限不能更改。");
-define("NO_PERMISSION", "你的权限不够。");
-define("NAME_OR_DIPL_EMPTY", "名称或外交关系为空");
-define("ALLY_DOESNT_EXISTS","联盟不存在");
-define("CANNOT_INVITE_SAME_ALLY","你不能邀请你自己的联盟");
-define("WRONG_DIPLOMACY","选择错误");
-define("INVITE_ALREADY_SENT","协定邀请已发出、或对方已发出邀请、或你已经与对方存在协定关系。");
-define("INVITE_SENT","邀请已发出");
-define("DECLARED_WAR_ON","宣告战争，向");
-define("OFFERED_NON_AGGRESION_PACT_TO","发出互不侵略协定邀请，向");
-define("OFFERED_CONFED_TO","发出联合邀请，向");
-define("ALLY_TOO_MUCH_PACTS","你不能发出更多此类协定的邀请、或联盟已经到达签订此种协定数量的上限。");
-define("ALLY_PERMISSIONS_UPDATED","权限已更新");
-define("ALLY_FORUM_LINK_UPDATED", "论坛链接已更新");
-define("NO_FORUMS_YET","目前还没有论坛");
-define("ALLY_USER_KICKED"," 已经被踢出联盟");
-define("NOT_OPENED_YET","服务器尚未启动");
-define("REGISTER_CLOSED","注册已关闭，你不能在此服务器上注册。");
-define("NAME_EMPTY","请输入名称");
-define("NAME_NO_EXIST","该名称不存在 ");
-define("ID_NO_EXIST","该ID不存在 ");
-define("SAME_NAME","你不能邀请你自己");
-define("ALREADY_INVITED"," 已被邀请");
-define("ALREADY_IN_ALLY"," 已经在联盟中");
-define("ALREADY_IN_AN_ALLY"," 已经在其他联盟中");
-define("NAME_OR_TAG_CHANGED","名称或标签已被更改");
-define("VAC_MODE_WRONG_DAYS","你输入了错误的天数");
+define("USRNM_EMPTY","(使用者名稱為空)");
+define("USRNM_TAKEN","(使用者名稱已被占用)");
+define("USRNM_SHORT","(使用者名稱最少 ".USRNM_MIN_LENGTH." 個字元)");
+define("USRNM_CHAR","(含有不可用字元)");
+define("PW_EMPTY","(密碼為空)");
+define("PW_SHORT","(使用者名稱最少 ".PW_MIN_LENGTH." 個字元)");
+define("PW_INSECURE","(密碼不安全，請採用更複雜的密碼)");
+define("EMAIL_EMPTY","(信箱地址為空)");
+define("EMAIL_INVALID","(不可用的信箱地址)");
+define("EMAIL_TAKEN","(信箱地址已被使用)");
+define("TRIBE_EMPTY","<li>請選擇一個種族。</li>");
+define("AGREE_ERROR","<li>若要註冊，請先同意遊戲規則和T&C。</li>");
+define("LOGIN_USR_EMPTY","請輸入使用者名稱。");
+define("LOGIN_PASS_EMPTY","請輸入密碼。");
+define("EMAIL_ERROR","信箱地址未知。");
+define("PASS_MISMATCH","密碼不匹配。");
+define("ALLI_OWNER","在刪除前，請先指派新盟主。");
+define("SIT_ERROR","代管人已經設置或不存在。");
+define("USR_NT_FOUND","使用者名稱不存在。");
+define("LOGIN_PW_ERROR","密碼錯誤。");
+define("WEL_TOPIC","實用訊息");
+define("ATAG_EMPTY","標籤為空");
+define("ANAME_EMPTY","名稱為空");
+define("ATAG_EXIST","標籤已占用");
+define("ANAME_EXIST","名稱已占用");
+define("ALREADY_ALLY_MEMBER","你已經在聯盟中");
+define("ALLY_TOO_LOW", "你必須擁有3級或更高等級的大使館");
+define("USER_NOT_IN_YOUR_ALLY","該用戶不在你的聯盟中。");
+define("CANT_EDIT_YOUR_PERMISSIONS","你不能更改自己的權限");
+define("CANT_EDIT_LEADER_PERMISSIONS","盟主的權限不能更改。");
+define("NO_PERMISSION", "你的權限不夠。");
+define("NAME_OR_DIPL_EMPTY", "名稱或外交關係為空");
+define("ALLY_DOESNT_EXISTS","聯盟不存在");
+define("CANNOT_INVITE_SAME_ALLY","你不能邀請你自己的聯盟");
+define("WRONG_DIPLOMACY","選擇錯誤");
+define("INVITE_ALREADY_SENT","協定邀請已發出、或對方已發出邀請、或你已經與對方存在協定關係。");
+define("INVITE_SENT","邀請已發出");
+define("DECLARED_WAR_ON","宣告戰爭，向");
+define("OFFERED_NON_AGGRESION_PACT_TO","發出互不侵略協定邀請，向");
+define("OFFERED_CONFED_TO","發出聯合邀請，向");
+define("ALLY_TOO_MUCH_PACTS","你不能發出更多此類協定的邀請、或聯盟已經到達簽訂此種協定數量的上限。");
+define("ALLY_PERMISSIONS_UPDATED","權限已更新");
+define("ALLY_FORUM_LINK_UPDATED", "論壇連結已更新");
+define("NO_FORUMS_YET","目前還沒有論壇");
+define("ALLY_USER_KICKED"," 已經被踢出聯盟");
+define("NOT_OPENED_YET","伺服器尚未啟動");
+define("REGISTER_CLOSED","註冊已關閉，你不能在此伺服器上註冊。");
+define("NAME_EMPTY","請輸入名稱");
+define("NAME_NO_EXIST","該名稱不存在 ");
+define("ID_NO_EXIST","該ID不存在 ");
+define("SAME_NAME","你不能邀請你自己");
+define("ALREADY_INVITED"," 已被邀請");
+define("ALREADY_IN_ALLY"," 已經在聯盟中");
+define("ALREADY_IN_AN_ALLY"," 已經在其他聯盟中");
+define("NAME_OR_TAG_CHANGED","名稱或標籤已被更改");
+define("VAC_MODE_WRONG_DAYS","你輸入了錯誤的天數");
 
 //COPYRIGHT
-define("TRAVIAN_COPYRIGHT","TravianZ 100% 开源 Travian 克隆。");
+define("TRAVIAN_COPYRIGHT","TravianZ 100% 開源 Travian 複製。");
 
 //BUILD.TPL
-define("CUR_PROD","当前产量");
-define("NEXT_PROD","产量，等级 ");
-define("CONSTRUCT_BUILD","建造建筑");
+define("CUR_PROD","當前產量");
+define("NEXT_PROD","產量，等級 ");
+define("CONSTRUCT_BUILD","建造建築");
 
 //BUILDINGS
-define("B1","伐木场");
-define("B1_DESC","伐木场的工人们砍倒树木，生产木材。伐木场的等级越高，木材的产能越高。");
+define("B1","伐木場");
+define("B1_DESC","伐木場的工人們砍倒樹木，生產木材。伐木場的等級越高，木材的產能越高。");
 define("B2","黏土坑");
-define("B2_DESC","黏土坑生产黏土。黏土坑的等级越高，黏土的产能越高。");
-define("B3","铁矿场");
-define("B3_DESC","在这里，矿工们挖出宝贵的金属。铁矿场的等级越高，铁矿的产能越高。");
-define("B4","农田");
-define("B4_DESC","你的人民和士兵的食物在这里产出。农田的等级越高，粮食的产能越高。");
+define("B2_DESC","黏土坑生產黏土。黏土坑的等級越高，黏土的產能越高。");
+define("B3","鐵礦場");
+define("B3_DESC","在這裡，礦工們挖出寶貴的金屬。鐵礦場的等級越高，鐵礦的產能越高。");
+define("B4","農田");
+define("B4_DESC","你的人民和士兵的食物在這裡產出。農田的等級越高，糧食的產能越高。");
 
 //DORF1
 define("LUMBER","木材");
 define("CLAY","黏土");
-define("IRON","铁矿");
-define("CROP","粮食");
-define("LEVEL","等级");
+define("IRON","鐵礦");
+define("CROP","糧食");
+define("LEVEL","等級");
 define("CROP_COM",CROP."消耗");
-define("PER_HR","每小时");
-define("PROD_HEADER","产量");
+define("PER_HR","每小時");
+define("PROD_HEADER","產量");
 define("MULTI_V_HEADER","村民");
 define("ANNOUNCEMENT","公告");
-define("GO2MY_VILLAGE","返回我的村庄");
-define("VILLAGE_CENTER","村庄大楼");
-define("FINISH_GOLD","将使用 2 金币瞬间完成本村的所有建筑和研究队列");
-define("WAITING_LOOP","(队列中)");
-define("CROP_NEGATIVE","你的粮食产量为负，因此不可能抵达需求的粮食数目。");
-define("HRS","(小时)");
-define("DONE_AT","完成于");
+define("GO2MY_VILLAGE","返回我的村莊");
+define("VILLAGE_CENTER","村莊大樓");
+define("FINISH_GOLD","將使用 2 金幣瞬間完成本村的所有建築和研究隊列");
+define("WAITING_LOOP","(隊列中)");
+define("CROP_NEGATIVE","你的糧食產量為負，因此不可能抵達需求的糧食數目。");
+define("HRS","(小時)");
+define("DONE_AT","完成於");
 define("CANCEL","取消");
-define("LOYALTY","忠诚度");
-define("CALCULATED_IN","响应延迟");
-define("SEVER_TIME","服务器时间:");
+define("LOYALTY","忠誠度");
+define("CALCULATED_IN","響應延遲");
+define("SEVER_TIME","伺服器時間:");
 define("HI","嗨");
 define("P_IN","在");
 
 //QUEST
-define("Q_CONTINUE","继续下一个任务。");
-define("Q_REWARD","你的奖励:");
-define("Q_BUTN","完成任务");
-define("Q0","欢迎来到");
-define("Q0_DESC","嘿，看起来你就是这座小村庄的首领。在刚开始的这段时间里我来指导你如何发展你的部落。");
-define("Q0_OPT1","开始任务");
+define("Q_CONTINUE","繼續下一個任務。");
+define("Q_REWARD","你的獎勵:");
+define("Q_BUTN","完成任務");
+define("Q0","歡迎來到");
+define("Q0_DESC","嘿，看起來你就是這座小村莊的首領。在剛開始的這段時間裡我來指導你如何發展你的部落。");
+define("Q0_OPT1","開始任務");
 define("Q0_OPT2","我想自己看看");
-define("Q0_OPT3","跳过任务");
+define("Q0_OPT3","跳過任務");
 
-define("Q1","任务 1: 伐木场");
-define("Q1_DESC","你的村庄里有四片绿色的森林。在一片森林中建造一个伐木场，因为木材是我们新聚居点的重要资源。");
-define("Q1_ORDER","目标:<\/p>建造一个伐木场。");
-define("Q1_RESP","就是这样，现在村庄能生产更多木材了。我帮点小忙，把建造瞬间完成。");
-define("Q1_REWARD","伐木场瞬间建造完成。");
+define("Q1","任務 1: 伐木場");
+define("Q1_DESC","你的村莊裡有四片綠色的森林。在一片森林中建造一個伐木場，因為木材是我們新聚居點的重要資源。");
+define("Q1_ORDER","目標:<\/p>建造一個伐木場。");
+define("Q1_RESP","就是這樣，現在村莊能生產更多木材了。我幫點小忙，把建造瞬間完成。");
+define("Q1_REWARD","伐木場瞬間建造完成。");
 
-define("Q2","任务 2: 粮食");
-define("Q2_DESC","你的人民辛勤劳作，他们的伙食保障至关重要。开发一片农田来满足粮食需求。当建筑完成了再回来。");
-define("Q2_ORDER","目标:<\/p>开发一片农田。");
-define("Q2_RESP","很好，你的人民吃得饱饭了。");
-define("Q2_REWARD","你的奖励:<\/p>1 天 Travian");
+define("Q2","任務 2: 糧食");
+define("Q2_DESC","你的人民辛勤勞作，他們的伙食保障至關重要。開發一片農田來滿足糧食需求。當建築完成了再回來。");
+define("Q2_ORDER","目標:<\/p>開發一片農田。");
+define("Q2_RESP","很好，你的人民吃得飽飯了。");
+define("Q2_REWARD","你的獎勵:<\/p>1 天 Travian");
 
-define("Q3","任务 3: 你村庄的名字");
+define("Q3","任務 3: 你村莊的名字");
 define("Q3_DESC","Creative as you are you can grant your village the ultimate name.<br \/><br \/>Click on 'profile' in the left hand menu and then select 'change profile'...");
 define("Q3_ORDER","Order:<\/p>Change your village's name to something nice.");
 define("Q3_RESP","Wow, a great name for their village. It could have been the name of my village!...");
 
-define("Q4","任务 4: Other Players");
+define("Q4","任務 4: Other Players");
 define("Q4_DESC","In ". SERVER_NAME ." you play along with billions of other players. Click 'statistics' in the top menu to look up your rank and enter it here.");
 define("Q4_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
 define("Q4_BUTN","complete task");
 define("Q4_RESP","Exactly! That's your rank.");
 
-define("Q5","任务 5: Two Building Orders");
+define("Q5","任務 5: Two Building Orders");
 define("Q5_DESC","Build an iron mine and a clay pit. Of iron and clay one can never have enough.");
 define("Q5_ORDER","Order:<\/p><ul><li>Extend one iron mine.<\/li><li>Extend one clay pit.<\/li><\/ul>");
 define("Q5_RESP","As you noticed, building orders take rather long. The world of ". SERVER_NAME ." will continue to spin even if you are offline. Even in a few months there will be many new things for you to discover.<br \/><br \/>The best thing to do is occasionally checking your village and giving you subjects new tasks to do.");
 
-define("Q6","任务 6: Messages");
+define("Q6","任務 6: Messages");
 define("Q6_DESC","You can talk to other players using the messaging system. I sent a message to you. Read it and come back here.<br \/><br \/>P.S. Don't forget: on the left the reports, on the right the messages.");
 define("Q6_ORDER","Order:<\/p>Read your new message.");
 define("Q6_RESP","You received it? Very good.<br \/><br \/>Here is some Gold. With Gold you can do several things, e.g. extend your   in the left hand menu.");
@@ -193,29 +193,29 @@ define("Q6_RESP2","in the left hand menu.");
 define("Q6_SUBJECT","Message From The Taskmaster");
 define("Q6_MESSAGE","You are to be informed that a nice reward is waiting for you at the taskmaster.<br /><br />Hint: The message has been generated automatically. An answer is not necessary.");
 
-define("Q7","任务 7: One Each!");
+define("Q7","任務 7: One Each!");
 define("Q7_DESC","Now we should increase your resource production a bit. Build an additional woodcutter, clay pit, iron mine and cropland to level 1.");
 define("Q7_ORDER","Order:<\/p>Extend one more of each resource tile to level 1.");
 define("Q7_RESP","Very good, great develop of resources production.");
 
-define("Q8","任务 8: Huge Army!");
+define("Q8","任務 8: Huge Army!");
 define("Q8_DESC","Now I've got a very special quest for you. I am hungry. Give me 200 crop!<br \/><br \/>In return I will try to organize a huge army to protect your village.");
 define("Q8_ORDER","Order:<\/p>Send 200 crop to the taskmaster.");
 define("Q8_BUTN","Send crop");
 define("Q8_NOCROP","No Enough Crop!");
 
-define("Q9","任务 9: Everything to 1.");
+define("Q9","任務 9: Everything to 1.");
 define("Q9_DESC","In Travian there is always something to do! While you are waiting for incoming the huge army, Now we should increase your resource production a bit. Extend all your resource tiles to level 1.");
 define("Q9_ORDER","Order:<\/p>Extend all resource tiles to level 1.");
 define("Q9_RESP","Very good, your resource production just thrives.<br \/><br \/>Soon we can start with constructing buildings in the village.");
 
-define("Q10","任务 10: Dove of Peace");
+define("Q10","任務 10: Dove of Peace");
 define("Q10_DESC","The first days after signing up you are protected against attacks by your fellow players. You can see how long this protection lasts by adding the code <b>[#0]<\/b> to your profile.");
 define("Q10_ORDER","Order:<\/p>Write the code <b>[#0]<\/b> into your profile by adding it to one of the two description fields.");
 define("Q10_RESP","Well done! Now everyone can see what a great warrior the world is approached by.");
 define("Q10_REWARD","Your reward:<\/p>2 day Travian");
 
-define("Q11","任务 11: Neighbours!");
+define("Q11","任務 11: Neighbours!");
 define("Q11_DESC","Around you, there are many different villages. One of them is named. ");
 define("Q11_DESC1"," Click on 'map' in the header menu and look for that village. The name of your neighbours' villages can be seen when hovering your mouse over any of them.");
 define("Q11_ORDER","Order:</p>Look for the coordinates of ");
@@ -224,119 +224,119 @@ define("Q11_RESP","Exactly, there ");
 define("Q11_RESP1"," Village! As many resources as you reach this village. Well, almost as much ...");
 define("Q11_BUTN","complete task");
 
-define("Q12","任务 12: Cranny");
+define("Q12","任務 12: Cranny");
 define("Q12_DESC","It's getting time to erect a cranny. The world of <?php echo SERVER_NAME; ?> is dangerous.<br \/><br \/>Many players live by stealing other players' resources. Build a cranny to hide some of your resources from enemies.");
 define("Q12_ORDER","Order:<\/p>Construct a Cranny.");
 define("Q12_RESP","Well done, now it's way harder for your mean fellow players to plunder your village.<br \/><br \/>If under attack, your villagers will hide the resources in the Cranny all on their own.");
 
-define("Q13","任务 13: To Two.");
+define("Q13","任務 13: To Two.");
 define("Q13_DESC","In <?php echo SERVER_NAME; ?> there is always something to do! Extend one woodcutter, one clay pit, one iron mine and one cropland to level 2 each.");
 define("Q13_ORDER","Order:<\/p>Extend one of each resource tile to level 2.");
 define("Q13_RESP","Very good, your village grows and thrives!");
 
-define("Q14","任务 14: Instructions");
+define("Q14","任務 14: Instructions");
 define("Q14_DESC","In the ingame instructions you can find short information texts about different buildings and types of units.<br \/><br \/>Click on 'instructions' at the left to find out how much lumber is required for the barracks.");
 define("Q14_ORDER","Order:<\/p>Enter how much lumber barracks cost");
 define("Q14_BUTN","complete task");
 define("Q14_RESP","Exactly! Barracks cost 210 lumber.");
 
-define("Q15","任务 15: Main Building");
+define("Q15","任務 15: Main Building");
 define("Q15_DESC","Your master builders need a main building level 3 to erect important buildings such as the marketplace or barracks.");
 define("Q15_ORDER","Order:<\/p>Extend your main building to level 3.");
 define("Q15_RESP","Well done. The main building level 3 has been completed.<br><br>With this upgrade your master builders cannot only construct more types of buildings but also do so faster.");
 
-define("Q16","任务 16: Advanced!");
+define("Q16","任務 16: Advanced!");
 define("Q16_DESC","Look up your rank in the player statistics again and enjoy your progress.");
 define("Q16_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
 define("Q16_RESP","Well done! That's your current rank.");
 
-define("Q17","任务 17: Weapons or Dough");
+define("Q17","任務 17: Weapons or Dough");
 define("Q17_DESC","Now you have to make a decision: Either trade peacefully or become a dreaded warrior.<br \/><br \/>For the marketplace you need a granary, for the barracks you need a rally point.");
 define("Q17_BUTN","Economy");
 define("Q17_BUTN1","Military");
 
-define("Q18","任务 18: Military");
+define("Q18","任務 18: Military");
 define("Q18_DESC","A brave decision. To be able to send troops you need a rally point.<br \/><br \/>The rally point must be built on a specific building site. The ");
 define("Q18_DESC1"," building site.");
 define("Q18_DESC2"," is located on the right side of the main building, slightly below it. The building site itself is curved.");
 define("Q18_ORDER","Order:<\/p>Construct a rally point.");
 define("Q18_RESP","Your rally point has been erected! A good move towards world domination!");
 
-define("Q19","任务 19: Barracks");
+define("Q19","任務 19: Barracks");
 define("Q19_DESC","Now you have a main building level 3 and a rally point. That means that all prerequisites for building barracks have been fulfilled.<br><br>You can use the barracks to train troops for fighting.");
 define("Q19_ORDER","Order:<\/p>Construct barracks.");
 define("Q19_RESP","Well done... The best instructors from the whole country have gathered to train your men\u2019s fighting skills to top form.");
 
-define("Q20","任务 20: Train.");
+define("Q20","任務 20: Train.");
 define("Q20_DESC","Now that you have barracks you can start training troops. Train two ");
 define("Q20_ORDER","Please train 2 ");
 define("Q20_RESP","The foundation for your glorious army has been laid.<br \/><br \/>Before sending your army off to plunder you should check with the.");
 define("Q20_RESP1","Combat Simulator");
 define("Q20_RESP2","to see how many troops you need to successfully fight one rat without losses.");
 
-define("Q21","任务 18: Economy");
+define("Q21","任務 18: Economy");
 define("Q21_DESC","Trade & Economy was your choice. Golden times await you for sure!");
 define("Q21_ORDER","Order:<\/p>Construct a Granary.");
 define("Q21_RESP","Well done! With the Granary you can store more wheat.");
 
-define("Q22","任务 19: Warehouse");
+define("Q22","任務 19: Warehouse");
 define("Q22_DESC","Not only Crop has to be saved. Other resources can go to waste as well if they are not stored correctly. Construct a Warehouse!");
 define("Q22_ORDER","Order:<\/p>Construct Warehouse.");
 define("Q22_RESP",";Well done, your Warehouse is complete...&rdquo;<\/i><br \/>Now you have fulfilled all prerequisites required to construct a Marketplace.");
 
-define("Q23","任务 20: Marketplace.");
+define("Q23","任務 20: Marketplace.");
 define("Q23_DESC",";Construct a Marketplace so you can trade with your fellow players.");
 define("Q23_ORDER","Order:<\/p>Please build a Marketplace.");
 define("Q23_RESP",";The Marketplace has been completed. Now you can make offers of your own and accept foreign offers! When creating your own offers, you should think about offering what other players need most to get more profit.");
 
-define("Q24","任务 21: Everything to 2.");
+define("Q24","任務 21: Everything to 2.");
 define("Q24_DESC","Now we should increase your resource production a bit. Build an additional woodcutter, clay pit, iron mine and cropland to level 1.");
 define("Q24_ORDER","Order:<\/p>Extend all resource tiles to level 2.");
 define("Q24_RESP","Congratulations! Your village grows and thrives...");
 
-define("Q28","任务 22: Alliance.");
+define("Q28","任務 22: Alliance.");
 define("Q28_DESC","Teamwork is important in Travian. Players who work together organise themselves in alliances. Get an invitation from an alliance in your region and join this alliance. Alternatively, you can found your own alliance. To do this, you need a level 3 embassy.");
 define("Q28_ORDER","Order:<\/p>Join an alliance or found one on your own.");
 define("Q28_RESP","Is good! Now you're in a union called");
 define("Q28_RESP1",", and you're a member of their alliance with the faster you'll progress...");
 
-define("Q29","任务 23: Main Building to Level 5");
+define("Q29","任務 23: Main Building to Level 5");
 define("Q29_DESC","To be able to build a palace or residence, you will need a main building at level 5.");
 define("Q29_ORDER","Order:<\/p>Upgrade your main building to level 5.");
 define("Q29_RESP","The main building is level 5 now and you can build palace or residence...");
 
-define("Q30","任务 24: Granary to Level 3.");
+define("Q30","任務 24: Granary to Level 3.");
 define("Q30_DESC","That you do not lose crop, you should upgrade your granary.");
 define("Q30_ORDER","Order:<\/p>Upgrade your granary to level 3.");
 define("Q30_RESP","Granary is level 3 now...");
 
-define("Q31","任务 25: Warehouse to Level 7");
+define("Q31","任務 25: Warehouse to Level 7");
 define("Q31_DESC"," To make sure your resources won't overflow, you should upgrade your warehouse.");
 define("Q31_ORDER","Order:<\/p>Upgrade your warehouse to level 7.");
 define("Q31_RESP","Warehouse has upgraded to level 7...");
 
-define("Q32","任务 26: All to five!");
+define("Q32","任務 26: All to five!");
 define("Q32_DESC","You will always need more resources. Resource tiles are quite expensive but will always pay out in the long term.");
 define("Q32_ORDER","Order:<\/p>Upgrade all resources tiles to level 5.");
 define("Q32_RESP","All resources are at level 5, very good, your village grows and thrives!");
 
-define("Q33","任务 27: Palace or Residence?");
+define("Q33","任務 27: Palace or Residence?");
 define("Q33_DESC","To found a new village, you will need settlers. Those you can train in either a palace or a residence.");
 define("Q33_ORDER","Order:<\/p>Build a palace or residence to level 10.");
 define("Q33_RESP","had reached to level 10, you can now train settlers and found your second village. Notice the cultural points...");
 
-define("Q34","任务 28: 3 settlers.");
+define("Q34","任務 28: 3 settlers.");
 define("Q34_DESC","To found a new village, you will need settlers. They can be trained  in either a palace or a residence.");
 define("Q34_ORDER","Order:<\/p>Train 3 settlers.");
 define("Q34_RESP","3 settlers were trained. To found new village you need at least");
 define("Q34_RESP1","culture points...");
 
-define("Q35","任务 29: New Village.");
+define("Q35","任務 29: New Village.");
 define("Q35_DESC","There are a lot of empty tiles on the map. Find one that suits you and found a new village");
 define("Q35_ORDER","Order:<\/p>Found a new village.");
 define("Q35_RESP","I am proud of you! Now you have two villages and have all the possibilities to build a mighty empire. I wish you luck with this.");
 
-define("Q36"," 任务 30: Build a ");
+define("Q36"," 任務 30: Build a ");
 define("Q36_DESC","Now that you have trained some soldiers, you should build a ");
 define("Q36_DESC1"," too. It increases the base defence and your soldiers will receive a defensive bonus.");
 define("Q36_ORDER","Order:<\/p>Build a ");
@@ -358,7 +358,7 @@ define("T7","1 day Travian ");
 define("T8","2 days Travian ");
 
 //Quest 25
-define("Q25_7","任务 7: Neighbours!");
+define("Q25_7","任務 7: Neighbours!");
 define("Q25_7_DESC","Around you, there are many different villages. One of them is named. ");
 define("Q25_7_DESC1","Click 'Map' in the head menu and look for that village. The name of your neighbours' villages can be seen once you hover your mouse over any of them.");
 define("Q25_7_ORDER","<\/p><b>Order:</b><br>Look for the coordinates of ");
@@ -366,126 +366,126 @@ define("Q25_7_ORDER1","and enter them here.");
 define("Q25_7_RESP","Exactly, there ");
 define("Q25_7_RESP1"," Village! As many resources as you reach this village. Well, almost as much ...");
 
-define("Q25_8","任务 8: Huge Army!");
+define("Q25_8","任務 8: Huge Army!");
 define("Q25_8_DESC","Now I've got a very special Quest for you. I am hungry. Give me 200 crop!<br \/><br \/>In return I will try to organize a huge army to protect your village.");
 define("Q25_8_ORDER","Order:<\/p>Send 200 crop to the taskmaster.");
 define("Q25_8_BUTN","Send crop");
 define("Q25_8_NOCROP","No Enough Crop!");
 
-define("Q25_9","任务 9: One each!");
+define("Q25_9","任務 9: One each!");
 define("Q25_9_DESC","In " . SERVER_NAME . " there is always something to do! While you are waiting for your new army,<br \/><br \/>extend one additional woodcutter, clay pit, iron mine and cropland to level 1");
 define("Q25_9_ORDER","Order:<\/p>Extend one more of each resource tile to level 1.");
 define("Q25_9_RESP","Very good, great development of resource production.");
 
-define("Q25_10","任务 10: Comming Soon!");
+define("Q25_10","任務 10: Comming Soon!");
 define("Q25_10_DESC","Now there is time for a small break until the gigantic army I sent you arrives.<br \/><br \/>Until then you can explore the map or extend a few resource tiles.");
 define("Q25_10_ORDER","Order:<\/p>Wait for the taskmaster's army to arrive");
 define("Q25_10_RESP","Now a huge army from taskmaster has arrive to protect your village");
 define("Q25_10_REWARD","Your reward:<\/p>2 days more of Travian");
 
-define("Q25_11","任务 11: Reports");
+define("Q25_11","任務 11: Reports");
 define("Q25_11_DESC","Every time something important happens to your account you will receive a report.<br \/><br \/>You can see these by clicking on the left half of the 5th button (from left to right). Read the report and come back here.");
 define("Q25_11_ORDER","Order:<\/p>Read your latest report.");
 define("Q25_11_RESP","You received it? Very good. Here is your reward.");
 
-define("Q25_12","任务 12: Everything to 1.");
+define("Q25_12","任務 12: Everything to 1.");
 define("Q25_12_DESC","Now we should increase your resource production a bit.");
 define("Q25_12_ORDER","Order:<\/p>Extend all resource tiles to level 1.");
 define("Q25_12_RESP","Very good, your resource production just thrives.<br \/><br \/>Soon we can start with constructing buildings in the village.");
 
-define("Q25_13","任务 13: Dove of Peace");
+define("Q25_13","任務 13: Dove of Peace");
 define("Q25_13_DESC","The first days after signing up you are protected against attacks by your fellow players. You can see how long this protection lasts by adding the code <b>[#0]<\/b> to your profile.");
 define("Q25_13_ORDER","Order:<\/p>Write the code <b>[#0]<\/b> into your profile by adding it to one of the two description fields.");
 define("Q25_13_RESP","Well done! Now everyone can see what a great warrior the world is approached by.");
 
-define("Q25_14","任务 14: Cranny");
+define("Q25_14","任務 14: Cranny");
 define("Q25_14_DESC","It's getting time to erect a cranny. The world of <b>" . SERVER_NAME. "</b> is dangerous.<br \/><br \/>Many players live by stealing other players' resources. Build a cranny to hide some of your resources from enemies.");
 define("Q25_14_ORDER","Order:<\/p>Construct a Cranny.");
 define("Q25_14_RESP","Well done, now it's way harder for your mean fellow players to plunder your village.<br \/><br \/>If under attack, your villagers will hide the resources in the Cranny all on their own.");
 
-define("Q25_15","任务 15: To Two.");
+define("Q25_15","任務 15: To Two.");
 define("Q25_15_DESC","In <b>" . SERVER_NAME. "</b> there is always something to do! Extend one woodcutter, one clay pit, one iron mine and one cropland to level 2 each.");
 define("Q25_15_ORDER","Order:<\/p>Extend one of each resource tile to level 2.");
 define("Q25_15_RESP","Very good, your village grows and thrives!");
 
-define("Q25_16","任务 16: Instructions");
+define("Q25_16","任務 16: Instructions");
 define("Q25_16_DESC","In the ingame instructions you can find short information texts about different buildings and types of units.<br \/><br \/>Click on 'instructions' at the left to find out how much lumber is required for the barracks.");
 define("Q25_16_ORDER","Order:<\/p>Enter how much lumber barracks cost");
 define("Q25_16_BUTN","complete task");
 define("Q25_16_RESP","Exactly! Barracks cost 210 lumber.");
 
-define("Q25_17","任务 17: Main Building");
+define("Q25_17","任務 17: Main Building");
 define("Q25_17_DESC","Your master builders need a main building level 3 to erect important buildings such as the marketplace or barracks.");
 define("Q25_17_ORDER","Order:<\/p>Extend your main building to level 3.");
 define("Q25_17_RESP","Well done. The main building level 3 has been completed.<br><br>With this upgrade your master builders can construct more types of buildings and also do so faster.");
 
-define("Q25_18","任务 18: Advanced!");
+define("Q25_18","任務 18: Advanced!");
 define("Q25_18_DESC","Look up your rank in the player statistics again and enjoy your progress.");
 define("Q25_18_ORDER","Order:<\/p>Look for your rank in the statistics and enter it here.");
 define("Q25_18_RESP","Well done! That's your current rank.");
 
-define("Q25_19","任务 19: Weapons or Dough");
+define("Q25_19","任務 19: Weapons or Dough");
 define("Q25_19_DESC","Now you have to make a decision: Either trade peacefully or become a dreaded warrior.<br \/><br \/>For the marketplace you need a granary, for the barracks you need a rally point.");
 define("Q25_19_BUTN","Economy");
 define("Q25_19_BUTN1","Military");
 
-define("Q25_20","任务 19: Economy");
+define("Q25_20","任務 19: Economy");
 define("Q25_20_DESC","Trade & Economy was your choice. Golden times await you for sure!");
 define("Q25_20_ORDER","Order:<\/p>Construct a Granary.");
 define("Q25_20_RESP","Well done! With the Granary you can store more wheat.");
 
-define("Q25_21","任务 20: Warehouse");
+define("Q25_21","任務 20: Warehouse");
 define("Q25_21_DESC","Not only Crop has to be saved. Other resources can go to waste as well if they are not stored correctly. Construct a Warehouse!");
 define("Q25_21_ORDER","Order:<\/p>Construct Warehouse.");
 define("Q25_21_RESP",";Well done, your Warehouse is complete...&rdquo;<\/i><br \/>Now you have fulfilled all prerequisites required to construct a Marketplace.");
 
-define("Q25_22","任务 21: Marketplace.");
+define("Q25_22","任務 21: Marketplace.");
 define("Q25_22_DESC",";Construct a Marketplace so you can trade with your fellow players.");
 define("Q25_22_ORDER","Order:<\/p>Please build a Marketplace.");
 define("Q25_22_RESP","The Marketplace has been completed. Now you can make offers of your own and accept foreign offers! When creating your own offers, you should think about offering what other players need most to get more profit.");
 
-define("Q25_23","任务 19: Military");
+define("Q25_23","任務 19: Military");
 define("Q25_23_DESC","A brave decision. To be able to send troops you need a rally point.<br \/><br \/>The rally point must be built on a specific building site. The ");
 define("Q25_23_DESC1"," building site.");
 define("Q25_23_DESC2"," is located on the right side of the main building, slightly below it. The building site itself is curved.");
 define("Q25_23_ORDER","Order:<\/p>Construct a rally point.");
 define("Q25_23_RESP","Your rally point has been erected! A good move towards world domination!");
 
-define("Q25_24","任务 20: Barracks");
+define("Q25_24","任務 20: Barracks");
 define("Q25_24_DESC","Now you have a main building level 3 and a rally point. That means that all prerequisites for building barracks have been fulfilled.<br><br>You can use the barracks to train troops for fighting.");
 define("Q25_24_ORDER","Order:<\/p>Construct barracks.");
 define("Q25_24_RESP","Well done... The best instructors from the whole country have gathered to train your men\u2019s fighting skills to top form.");
 
-define("Q25_25","任务 21: Train.");
+define("Q25_25","任務 21: Train.");
 define("Q25_25_DESC","Now that you have barracks you can start training troops. Train two ");
 define("Q25_25_ORDER","Please train 2 ");
 define("Q25_25_RESP","The foundation for your glorious army has been laid.<br \/><br \/>Before sending your army off to plunder you should check with the");
 define("Q25_25_RESP1","Combat Simulator");
 define("Q25_25_RESP2","to see how many troops you need to successfully fight one rat without losses.");
 
-define("Q25_26","任务 22: Everything to 2.");
+define("Q25_26","任務 22: Everything to 2.");
 define("Q25_26_DESC","Now it's time again to extend the cornerstones of might and wealth! This time level 1 is not enough... it will take a while but in the end it will be worth it. Extend all your resource tiles to level 2!");
 define("Q25_26_ORDER","Order:<\/p>Extend all resource tiles to level 2.");
 define("Q25_26_RESP","Congratulations! Your village grows and thrives...");
 
-define("Q25_27","任务 23: Friends.");
+define("Q25_27","任務 23: Friends.");
 define("Q25_27_DESC","As single player it is hard to compete with attackers. It is to your advantage if your neighbours like you.<br \/><br \/>It is even better if you play together with friends. Did you know that you can earn <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> by inviting friends?");
 define("Q25_27_ORDER","Order:<\/p>How much <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> do you earn for inviting a friend?");
 define("Q25_27_RESP","Correct! You get 50 <img src='img/x.gif' class='gold' alt='Gold' title='Gold'> if your invited friend have 2 village.");
 
-define("Q25_28","任务 24: Construct Embassy.");
+define("Q25_28","任務 24: Construct Embassy.");
 define("Q25_28_DESC","The world of Travian is dangerous. You already built a cranny to protect you against attackers.<br \/><br \/>A good alliance will give you even better protection.");
 define("Q25_28_ORDER","Order:<\/p>To accept invitations from alliances, build an embassy.");
 define("Q25_28_RESP","Yes! You can wait invitation from an alliance or create you own if embassy has level 3");
 
-define("Q25_29","任务 25: Alliance.");
+define("Q25_29","任務 25: Alliance.");
 define("Q25_29_DESC","Teamwork is important in Travian. Players who work together organise themselves in alliances. Get an invitation from an alliance in your region and join this alliance. Alternatively, you can found your own alliance. To do this, you need a level 3 embassy.");
 define("Q25_29_ORDER","Order:<\/p>Join an alliance or found your own alliance.");
 define("Q25_29_RESP","Well done! Now you're in a union called");
 define("Q25_29_RESP1",", and you're a member of their alliance.<br>Working together you will all progress faster...");
 
-define("Q25_30","任务");
-define("Q25_30_DESC","所有任务都已经完成!");
+define("Q25_30","任務");
+define("Q25_30_DESC","所有任務都已經完成!");
 
 
 //======================================================//
@@ -494,39 +494,39 @@ define("Q25_30_DESC","所有任务都已经完成!");
 define("U0","英雄");
 
 //ROMAN UNITS
-define("U1","古罗马步兵");
-define("U2","禁卫兵");
-define("U3","帝国兵");
-define("U4","使节骑士");
-define("U5","帝国骑士");
-define("U6","将军骑士");
-define("U7","攻城锤");
-define("U8","火焰投石机");
-define("U9","参议员");
+define("U1","古羅馬步兵");
+define("U2","禁衛兵");
+define("U3","帝國兵");
+define("U4","使節騎士");
+define("U5","帝國騎士");
+define("U6","將軍騎士");
+define("U7","攻城錘");
+define("U8","火焰投石機");
+define("U9","參議員");
 define("U10","拓荒者");
 
 //TEUTON UNITS
 define("U11","棍棒兵");
 define("U12","矛兵");
-define("U13","斧头兵");
+define("U13","斧頭兵");
 define("U14","探子");
-define("U15","游骑兵");
-define("U16","条顿骑士");
-define("U17","冲车");
-define("U18","简易投石机");
+define("U15","遊騎兵");
+define("U16","條頓騎士");
+define("U17","衝車");
+define("U18","簡易投石機");
 define("U19","司令官");
 define("U20","拓荒者");
 
 //GAUL UNITS
-define("U21","方阵兵");
-define("U22","剑客");
-define("U23","寻路者");
-define("U24","雷法师");
-define("U25","德鲁伊骑兵");
-define("U26","海顿骑士");
-define("U27","冲车");
-define("U28","投石机");
-define("U29","族长");
+define("U21","方陣兵");
+define("U22","劍客");
+define("U23","尋路者");
+define("U24","雷法師");
+define("U25","德魯伊騎兵");
+define("U26","海頓騎士");
+define("U27","衝車");
+define("U28","投石機");
+define("U29","族長");
 define("U30","拓荒者");
 define("U99","陷阱");
 
@@ -535,24 +535,24 @@ define("U31","老鼠");
 define("U32","蜘蛛");
 define("U33","蛇");
 define("U34","蝙蝠");
-define("U35","野猪");
+define("U35","野豬");
 define("U36","狼");
 define("U37","熊");
-define("U38","鳄鱼");
+define("U38","鱷魚");
 define("U39","老虎");
 define("U40","大象");
 
 //NATARS UNITS
-define("U41","长枪兵");
-define("U42","荆棘战士");
-define("U43","禁卫兵");
-define("U44","猎鹰");
-define("U45","斧头骑兵");
-define("U46","纳塔骑士");
-define("U47","战象");
-define("U48","射石机");
-define("U49","纳塔帝王");
-define("U50","纳塔拓荒者");
+define("U41","長槍兵");
+define("U42","荊棘戰士");
+define("U43","禁衛兵");
+define("U44","獵鷹");
+define("U45","斧頭騎兵");
+define("U46","納塔騎士");
+define("U47","戰象");
+define("U48","射石機");
+define("U49","納塔帝王");
+define("U50","納塔拓荒者");
 
 //MONSTER UNITS
 define("U51","Monster Peon");
@@ -569,336 +569,336 @@ define("U60","Monster Settler");
 // RESOURCES
 define("R1","木材");
 define("R2","黏土");
-define("R3","铁矿");
-define("R4","粮食");
+define("R3","鐵礦");
+define("R4","糧食");
 
 //INDEX.php
-define("LOGIN","登录");
+define("LOGIN","登錄");
 define("PLAYERS","玩家");
-define("MODERATOR","管理员");
-define("ACTIVE","活跃");
-define("ONLINE","在线");
-define("TUTORIAL","教程");
-define("PLAYER_STATISTICS","玩家数据");
+define("MODERATOR","管理員");
+define("ACTIVE","活躍");
+define("ONLINE","在線");
+define("TUTORIAL","教學");
+define("PLAYER_STATISTICS","玩家數據");
 define("TOTAL_PLAYERS","共有 ".PLAYERS." 名玩家");
-define("ACTIVE_PLAYERS","活跃玩家");
-define("ONLINE_PLAYERS","".PLAYERS." 玩家在线");
-define("MP_STRATEGY_GAME","".SERVER_NAME." - 多人在线策略游戏");
-define("WHAT_IS","".SERVER_NAME." 是风靡全世界的网页游戏。 作为 ".SERVER_NAME." 的一员，你将建立你自己的帝国、组建强大的军队、与你的盟友并肩作战并最终称霸世界。");
-define("REGISTER_FOR_FREE","在此免费注册!");
-define("LATEST_GAME_WORLD","最新游戏世界");
+define("ACTIVE_PLAYERS","活躍玩家");
+define("ONLINE_PLAYERS","".PLAYERS." 玩家在線");
+define("MP_STRATEGY_GAME","".SERVER_NAME." - 多人在線策略遊戲");
+define("WHAT_IS","".SERVER_NAME." 是風靡全世界的網頁遊戲。 作為 ".SERVER_NAME." 的一員，你將建立你自己的帝國、組建強大的軍隊、與你的盟友並肩作戰並最終稱霸世界。");
+define("REGISTER_FOR_FREE","在此免費註冊!");
+define("LATEST_GAME_WORLD","最新遊戲世界");
 define("LATEST_GAME_WORLD2","Register on the latest<br/>game world and enjoy<br/>the advantages of<br/>being one of the<br/>first players.");
 define("PLAY_NOW","Play ".SERVER_NAME." now");
-define("LEARN_MORE","了解更多 <br/>有关 ".SERVER_NAME."!");
+define("LEARN_MORE","了解更多 <br/>有關 ".SERVER_NAME."!");
 define("LEARN_MORE2","Now with a revolutionised<br>server system, completely new<br>graphics <br>This clone is The Shiz!");
 define("COMUNITY","Community");
 define("BECOME_COMUNITY","Become part of our community now!");
 define("BECOME_COMUNITY2","Become a part of one of<br>the biggest gaming<br>communities in the<br>world.");
-define("NEWS","新闻");
-define("SCREENSHOTS","游戏截图");
+define("NEWS","新聞");
+define("SCREENSHOTS","遊戲截圖");
 define("FAQ","FAQ");
-define("SPIELREGELN","规则");
-define("AGB","条款声明");
+define("SPIELREGELN","規則");
+define("AGB","條款聲明");
 define("LEARN1","Upgrade your fields and mines to increase your resource production. You will need resources to construct buildings and train soldiers.");
 define("LEARN2","Construct and expand the buildings in your village. Buildings improve your overall infrastructure, increase your resource production and allow you to research, train and upgrade your troops.");
 define("LEARN3","View and interact with your surroundings. You can make new friends or new enemies, make use of the nearby oases and observe as your empire grows and becomes stronger.");
 define("LEARN4","Follow your improvement and success and compare yourself to other players. Look at the Top 10 rankings and fight to win a weekly medal.");
 define("LEARN5","Receive detailed reports about your adventures, trades and battles. Don't forget to check the brand new reports about the happenings taking place in your surroundings.");
 define("LEARN6","Exchange information and conduct diplomacy with other players. Always remember that communication is the key to winning new friends and solving old conflicts.");
-define("LOGIN_TO","登录至 ". SERVER_NAME);
-define("REGIN_TO","注册于 ". SERVER_NAME);
-define("P_ONLINE","在线玩家: ");
+define("LOGIN_TO","登錄至 ". SERVER_NAME);
+define("REGIN_TO","註冊於 ". SERVER_NAME);
+define("P_ONLINE","在線玩家: ");
 define("P_TOTAL","所有玩家: ");
-define("CHOOSE","请选择一个服务器");
-define("STARTED"," 服务器启动于 ". round((time()-COMMENCE)/86400) ." 天前。");
+define("CHOOSE","請選擇一個伺服器");
+define("STARTED"," 伺服器啟動於 ". round((time()-COMMENCE)/86400) ." 天前。");
 
 //ANMELDEN.php
-define("NICKNAME","昵称");
-define("EMAIL","邮箱");
-define("PASSWORD","密码");
-define("ROMANS","罗马");
-define("TEUTONS","条顿");
-define("GAULS","高卢");
+define("NICKNAME","暱稱");
+define("EMAIL","信箱");
+define("PASSWORD","密碼");
+define("ROMANS","羅馬");
+define("TEUTONS","條頓");
+define("GAULS","高盧");
 define("NW","西北");
-define("NE","东北");
+define("NE","東北");
 define("SW","西南");
-define("SE","东南");
-define("RANDOM","随机");
-define("ACCEPT_RULES"," 我接受游戏规则和条约条款。");
-define("ONE_PER_SERVER","每位玩家在一个服务器上至多只能拥有1个账号。");
-define("BEFORE_REGISTER","在注册账号前你应阅读 Travian <a href='../anleitung.php' target='_blank'>游戏指南</a> 来了解三个种族各自的优势和劣势。");
+define("SE","東南");
+define("RANDOM","隨機");
+define("ACCEPT_RULES"," 我接受遊戲規則和條約條款。");
+define("ONE_PER_SERVER","每位玩家在一個伺服器上至多只能擁有1個帳號。");
+define("BEFORE_REGISTER","在註冊帳號前你應閱讀 Travian <a href='../anleitung.php' target='_blank'>遊戲指南</a> 來了解三個種族各自的優勢和劣勢。");
 define("BUILDING_UPGRADING","建造中:");
-define("HOURS","小时");
+define("HOURS","小時");
 
 
 //ATTACKS ETC.
-define("TROOP_MOVEMENTS","行军中:");
-define("ARRIVING_REINF_TROOPS","到来的增援部队");
-define("ARRIVING_ATTACKING_TROOPS","到来的进攻部队");
+define("TROOP_MOVEMENTS","行軍中:");
+define("ARRIVING_REINF_TROOPS","到來的增援部隊");
+define("ARRIVING_ATTACKING_TROOPS","到來的進攻部隊");
 define("ARRIVING_REINF_TROOPS_SHORT","增援");
-define("OWN_ATTACKING_TROOPS","己方进攻部队");
-define("ATTACK","进攻");
-define("OWN_REINFORCING_TROOPS","己方增援部队");
-define("TROOPS_DORF","部队:");
-define("NEWVILLAGE","新村庄");
-define("FOUNDNEWVILLAGE","建立新村庄");
-define("UNDERATTACK","村庄遭受攻击");
-define("OASISATTACK","绿洲遭受攻击");
-define("OASISATTACKS","绿洲攻击");
+define("OWN_ATTACKING_TROOPS","己方進攻部隊");
+define("ATTACK","進攻");
+define("OWN_REINFORCING_TROOPS","己方增援部隊");
+define("TROOPS_DORF","部隊:");
+define("NEWVILLAGE","新村莊");
+define("FOUNDNEWVILLAGE","建立新村莊");
+define("UNDERATTACK","村莊遭受攻擊");
+define("OASISATTACK","綠洲遭受攻擊");
+define("OASISATTACKS","綠洲攻擊");
 define("RETURNFROM","返回自");
 define("REINFORCEMENTFOR","增援至");
-define("ATTACK_ON","进攻至");
-define("RAID_ON","掠夺至");
-define("SCOUTING","侦查");
-define("PRISONERS","俘虏");
-define("PRISONERSIN","俘虏在");
-define("PRISONERSFROM","俘虏从");
-define("TROOPS","部队");
-define("TROOPSFROM","部队");
-define("BOUNTY","赏金");
-define("ARRIVAL","抵达");
-define("CATAPULT_TARGET","攻城器目标");
-define("INCOMING_TROOPS","到来的部队");
-define("TROOPS_ON_THEIR_WAY","途中的部队");
-define("OWN_TROOPS","己方部队");
+define("ATTACK_ON","進攻至");
+define("RAID_ON","掠奪至");
+define("SCOUTING","偵查");
+define("PRISONERS","俘虜");
+define("PRISONERSIN","俘虜在");
+define("PRISONERSFROM","俘虜從");
+define("TROOPS","部隊");
+define("TROOPSFROM","部隊");
+define("BOUNTY","賞金");
+define("ARRIVAL","抵達");
+define("CATAPULT_TARGET","攻城器目標");
+define("INCOMING_TROOPS","到來的部隊");
+define("TROOPS_ON_THEIR_WAY","途中的部隊");
+define("OWN_TROOPS","己方部隊");
 define("ON","在");
 define("AT","在");
 define("UPKEEP","消耗");
-define("SEND_BACK","送还");
-define("TROOPS_IN_THE_VILLAGE","村庄中的部队");
-define("TROOPS_IN_OTHER_VILLAGE","其他村庄的部队");
-define("TROOPS_IN_OASIS","绿洲中的部队");
-define("KILL","击杀");
-define("FROM","从");
-define("SEND_TROOPS","派遣部队");
-define("TASKMASTER","任务官");
-define("VILLAGE_OF_THE_ELDERS_TROOPS","旧部队的村庄");
+define("SEND_BACK","送還");
+define("TROOPS_IN_THE_VILLAGE","村莊中的部隊");
+define("TROOPS_IN_OTHER_VILLAGE","其他村莊的部隊");
+define("TROOPS_IN_OASIS","綠洲中的部隊");
+define("KILL","擊殺");
+define("FROM","從");
+define("SEND_TROOPS","派遣部隊");
+define("TASKMASTER","任務官");
+define("VILLAGE_OF_THE_ELDERS_TROOPS","舊部隊的村莊");
 
 //SEND TROOP
 define("REINFORCE","增援");
-define("NORMALATTACK","强攻");
-define("RAID","掠夺");
+define("NORMALATTACK","強攻");
+define("RAID","掠奪");
 define("OR","或");
-define("SENDTROOP","派遣部队");
-define("TROOP","部队");
-define("NOTROOP","无部队");
+define("SENDTROOP","派遣部隊");
+define("TROOP","部隊");
+define("NOTROOP","無部隊");
 
 //map
-define("DETAIL","详情");
+define("DETAIL","詳情");
 define("ABANDVALLEY","荒地");
-define("OCCUPIED","已被占领的");
-define("UNOCCUPIED","未被占领的");
-define("UNOCCUOASIS","未被占领的绿洲");
-define("OCCUOASIS","已被占领的绿洲");
-define("THERENOINFO","没有<br>可用信息。");
-define("LANDDIST","资源田配比");
-define("TRIBE","种族");
-define("ALLIANCE","联盟");
+define("OCCUPIED","已被占領的");
+define("UNOCCUPIED","未被占領的");
+define("UNOCCUOASIS","未被占領的綠洲");
+define("OCCUOASIS","已被占領的綠洲");
+define("THERENOINFO","沒有<br>可用資訊。");
+define("LANDDIST","資源田配比");
+define("TRIBE","種族");
+define("ALLIANCE","聯盟");
 define("POP","人口");
-define("REPORT","报告");
-define("OPTION","选项");
-define("CENTREMAP","以此为中心显示地图");
-define("FNEWVILLAGE","建立新村庄");
-define("CULTUREPOINT","文化点数");
-define("BUILDRALLY","建造集结点");
+define("REPORT","報告");
+define("OPTION","選項");
+define("CENTREMAP","以此為中心顯示地圖");
+define("FNEWVILLAGE","建立新村莊");
+define("CULTUREPOINT","文化點數");
+define("BUILDRALLY","建造集結點");
 define("SETTLERSAVAIL","可用拓荒者");
-define("BEGINPRO","新手保护");
+define("BEGINPRO","新手保護");
 define("SENDMERC","派出商人");
 define("BAN","玩家已被封禁");
-define("BUILDMARKET","建造市场");
-define("PERHOUR","每小时");
-define("BONUS","激励");
-define("MAP","地图");
+define("BUILDMARKET","建造市場");
+define("PERHOUR","每小時");
+define("BONUS","激勵");
+define("MAP","地圖");
 define("CROPFINDER","找田工具");
 define("NORTH","北");
-define("EAST","东");
+define("EAST","東");
 define("SOUTH","南");
 define("WEST","西");
 
 //other
-define("VILLAGE","村庄");
-define("OASIS","绿洲");
-define("NO_OASIS", "你尚未占领绿洲。");
-define("NO_VILLAGES", "那里没有村庄。");
+define("VILLAGE","村莊");
+define("OASIS","綠洲");
+define("NO_OASIS", "你尚未占領綠洲。");
+define("NO_VILLAGES", "那裡沒有村莊。");
 define("PLAYER","玩家");
 
 //LOGIN.php
-define("COOKIES","你必须启用Cookies才能登录。如果你与他人共用此电脑，请在游玩后登出。");
-define("NAME","名称");
-define("PW_FORGOTTEN","忘记密码?");
-define("PW_REQUEST","你可以申请更换新密码，相关信息将发送到你的邮箱。");
-define("PW_GENERATE","生成新密码。");
-define("EMAIL_NOT_VERIFIED","邮箱地址尚未验证!");
-define("EMAIL_FOLLOW","通过此链接激活你的账户。");
-define("VERIFY_EMAIL","验证邮箱。");
-define("SERVER_STARTS_IN","服务器将启动于: ");
-define("START_NOW","现在启动");
+define("COOKIES","你必須啟用Cookies才能登錄。如果你與他人共用此電腦，請在遊玩後登出。");
+define("NAME","名稱");
+define("PW_FORGOTTEN","忘記密碼?");
+define("PW_REQUEST","你可以申請更換新密碼，相關資訊將發送到你的信箱。");
+define("PW_GENERATE","生成新密碼。");
+define("EMAIL_NOT_VERIFIED","信箱地址尚未驗證!");
+define("EMAIL_FOLLOW","通過此連結啟用你的帳戶。");
+define("VERIFY_EMAIL","驗證信箱。");
+define("SERVER_STARTS_IN","伺服器將啟動於: ");
+define("START_NOW","現在啟動");
 
 
 //404.php
-define("NOTHING_HERE","这儿什么也没有!");
-define("WE_LOOKED","我们找了 404 次，但什么都没有发现");
+define("NOTHING_HERE","這裡什麼也沒有!");
+define("WE_LOOKED","我們找了 404 次，但什麼都沒有發現");
 
 //TIME RELATED
-define("CALCULATED","响应延迟");
-define("SERVER_TIME","服务器时间:");
+define("CALCULATED","響應延遲");
+define("SERVER_TIME","伺服器時間:");
 
 //MASSMESSAGE.php
-define("MASS","消息内容");
-define("MASS_SUBJECT","主题:");
-define("MASS_COLOR","消息颜色:");
-define("MASS_REQUIRED","所有空白栏都需要内容");
-define("MASS_UNITS","图像 (units):");
-define("MASS_SHOWHIDE","显示/隐藏");
+define("MASS","消息內容");
+define("MASS_SUBJECT","主題:");
+define("MASS_COLOR","消息顏色:");
+define("MASS_REQUIRED","所有空白欄都需要內容");
+define("MASS_UNITS","圖像 (units):");
+define("MASS_SHOWHIDE","顯示/隱藏");
 define("MASS_READ","注意: Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
-define("MASS_CONFIRM","确认");
-define("MASS_REALLY","你确定要发送全体 IGM 吗?");
-define("MASS_ABORT","现在中止");
-define("MASS_SENT","全体 IGM 已送出");
+define("MASS_CONFIRM","確認");
+define("MASS_REALLY","你確定要發送全體 IGM 嗎?");
+define("MASS_ABORT","現在中止");
+define("MASS_SENT","全體 IGM 已送出");
 
 //BUILDINGS
-define("WOODCUTTER","伐木场");
+define("WOODCUTTER","伐木場");
 define("CLAYPIT","黏土坑");
-define("IRONMINE","铁矿场");
-define("CROPLAND","农田");
+define("IRONMINE","鐵礦場");
+define("CROPLAND","農田");
 
-define("SAWMILL","锯木厂");
-define("SAWMILL_DESC","木材被送到这里进一步处理。根据锯木厂的等级，木材产量可以提升至多 25% 。");
-define("CURRENT_WOOD_BONUS","当前木材产量加成:");
-define("WOOD_BONUS_LEVEL","木材产量加成于等级");
-define("MAX_LEVEL","建筑已经到达最高等级");
+define("SAWMILL","鋸木廠");
+define("SAWMILL_DESC","木材被送到這裡進一步處理。根據鋸木廠的等級，木材產量可以提升至多 25% 。");
+define("CURRENT_WOOD_BONUS","當前木材產量加成:");
+define("WOOD_BONUS_LEVEL","木材產量加成於等級");
+define("MAX_LEVEL","建築已經到達最高等級");
 define("PERCENT","%");
 
-define("BRICKYARD","砖块厂");
-define("CURRENT_CLAY_BONUS","当前黏土产量加成:");
-define("CLAY_BONUS_LEVEL","黏土产量加成于等级");
-define("BRICKYARD_DESC","黏土被送到这里进一步处理。根据砖块厂的等级，黏土产量可以提升至多 25% 。");
+define("BRICKYARD","磚塊廠");
+define("CURRENT_CLAY_BONUS","當前黏土產量加成:");
+define("CLAY_BONUS_LEVEL","黏土產量加成於等級");
+define("BRICKYARD_DESC","黏土被送到這裡進一步處理。根據磚塊廠的等級，黏土產量可以提升至多 25% 。");
 
-define("IRONFOUNDRY","铸铁厂");
-define("CURRENT_IRON_BONUS","当前铁矿产量加成:");
-define("IRON_BONUS_LEVEL","铁矿产量加成于等级");
-define("IRONFOUNDRY_DESC","铁矿被送到这里进一步处理。根据铸铁厂的等级，铁矿产量可以提升至多 25% 。");
+define("IRONFOUNDRY","鑄鐵廠");
+define("CURRENT_IRON_BONUS","當前鐵礦產量加成:");
+define("IRON_BONUS_LEVEL","鐵礦產量加成於等級");
+define("IRONFOUNDRY_DESC","鐵礦被送到這裡進一步處理。根據鑄鐵廠的等級，鐵礦產量可以提升至多 25% 。");
 
 define("GRAINMILL","磨坊");
-define("CURRENT_CROP_BONUS","当前粮食产量加成:");
-define("CROP_BONUS_LEVEL","粮食产量加成于等级");
-define("GRAINMILL_DESC","粮食被送到这里进一步加工成面粉。根据磨坊的等级，粮食产量可以提升至多 25% 。");
+define("CURRENT_CROP_BONUS","當前糧食產量加成:");
+define("CROP_BONUS_LEVEL","糧食產量加成於等級");
+define("GRAINMILL_DESC","糧食被送到這裡進一步加工成麵粉。根據磨坊的等級，糧食產量可以提升至多 25% 。");
 
-define("BAKERY","面包房");
-define("BAKERY_DESC","面粉可以进一步烘烤成面包。在磨坊的基础之上，将粮食产量提升至多 50% 。");
+define("BAKERY","麵包房");
+define("BAKERY_DESC","麵粉可以進一步烘烤成麵包。在磨坊的基礎之上，將糧食產量提升至多 50% 。");
 
-define("WAREHOUSE","仓库");
-define("CURRENT_CAPACITY","当前容量:");
-define("CAPACITY_LEVEL","容量在等级");
-define("RESOURCE_UNITS","资源单位");
-define("WAREHOUSE_DESC","木材、黏土和铁矿存储在仓库中。仓库的等级越高，存储容量越高。");
+define("WAREHOUSE","倉庫");
+define("CURRENT_CAPACITY","當前容量:");
+define("CAPACITY_LEVEL","容量在等級");
+define("RESOURCE_UNITS","資源單位");
+define("WAREHOUSE_DESC","木材、黏土和鐵礦儲存在倉庫中。倉庫的等級越高，儲存容量越高。");
 
-define("GRANARY","粮仓");
-define("CROP_UNITS","粮食单位");
-define("GRANARY_DESC","粮食存储在粮仓中。粮仓的等级越高，存储容量越高。");
+define("GRANARY","糧倉");
+define("CROP_UNITS","糧食單位");
+define("GRANARY_DESC","糧食儲存在糧倉中。糧倉的等級越高，儲存容量越高。");
 
-define("BLACKSMITH","铁匠铺");
-define("ACTION","选项");
-define("UPGRADE","升级");
-define("UPGRADE_IN_PROGRESS","升级在<br>进行中");
-define("UPGRADE_BLACKSMITH","升级<br>铁匠铺");
-define("UPGRADES_COMMENCE_BLACKSMITH","铁匠铺建造完成后才能开始升级。");
-define("MAXIMUM_LEVEL","最高<br>等级");
-define("EXPAND_WAREHOUSE","扩建<br>仓库");
-define("EXPAND_GRANARY","扩建<br>粮仓");
-define("ENOUGH_RESOURCES","足够的资源");
-define("CROP_NEGATIVE ","你的粮食产量为负，因此不可能抵达需求的粮食数目");
-define("TOO_FEW_RESOURCES","缺少<br>资源");
-define("UPGRADING","升级中");
-define("DURATION","时长");
+define("BLACKSMITH","鐵匠鋪");
+define("ACTION","選項");
+define("UPGRADE","升級");
+define("UPGRADE_IN_PROGRESS","升級在<br>進行中");
+define("UPGRADE_BLACKSMITH","升級<br>鐵匠鋪");
+define("UPGRADES_COMMENCE_BLACKSMITH","鐵匠鋪建造完成後才能開始升級。");
+define("MAXIMUM_LEVEL","最高<br>等級");
+define("EXPAND_WAREHOUSE","擴建<br>倉庫");
+define("EXPAND_GRANARY","擴建<br>糧倉");
+define("ENOUGH_RESOURCES","足夠的資源");
+define("CROP_NEGATIVE ","你的糧食產量為負，因此不可能抵達需求的糧食數目");
+define("TOO_FEW_RESOURCES","缺少<br>資源");
+define("UPGRADING","升級中");
+define("DURATION","時長");
 define("COMPLETE","完成");
-define("BLACKSMITH_DESC","在铁匠铺的熔炉中，士兵们的武器得到强化。铁匠铺等级越高，士兵的攻击力将能得到更高的强化。");
+define("BLACKSMITH_DESC","在鐵匠鋪的熔爐中，士兵們的武器得到強化。鐵匠鋪等級越高，士兵的攻擊力將能得到更高的強化。");
 
-define("ARMOURY","盔甲厂");
-define("UPGRADE_ARMOURY","升级<br>盔甲厂");
-define("UPGRADES_COMMENCE_ARMOURY","盔甲厂建造完成后才能开始升级。");
-define("ARMOURY_DESC","盔甲厂的工匠能生产更好的防具。盔甲厂等级越高，士兵的防御力将能得到更高的强化。");
+define("ARMOURY","盔甲廠");
+define("UPGRADE_ARMOURY","升級<br>盔甲廠");
+define("UPGRADES_COMMENCE_ARMOURY","盔甲廠建造完成後才能開始升級。");
+define("ARMOURY_DESC","盔甲廠的工匠能生產更好的防具。盔甲廠等級越高，士兵的防禦力將能得到更高的強化。");
 
-define("TOURNAMENTSQUARE","竞技场");
-define("CURRENT_SPEED","当前行军速度加成:");
-define("SPEED_LEVEL","行军速度加成在等级");
-define("TOURNAMENTSQUARE_DESC","在竞技场，你的部队日复一日地训练，他们的耐力得到了提升。竞技场等级越高，士兵进行 ".TS_THRESHOLD." 格以上的行军将更快。");
+define("TOURNAMENTSQUARE","競技場");
+define("CURRENT_SPEED","當前行軍速度加成:");
+define("SPEED_LEVEL","行軍速度加成在等級");
+define("TOURNAMENTSQUARE_DESC","在競技場，你的部隊日復一日地訓練，他們的耐力得到了提升。競技場等級越高，士兵進行 ".TS_THRESHOLD." 格以上的行軍將更快。");
 
-define("MAINBUILDING","村庄大楼");
-define("CURRENT_CONSTRUCTION_TIME","当前建造速度:");
-define("CONSTRUCTION_TIME_LEVEL","建造速度在等级");
-define("DEMOLITION_BUILDING","拆除建筑:</h2><p>如果你不再需要某个建筑，你可以在这里下令拆除。</p>");
+define("MAINBUILDING","村莊大樓");
+define("CURRENT_CONSTRUCTION_TIME","當前建造速度:");
+define("CONSTRUCTION_TIME_LEVEL","建造速度在等級");
+define("DEMOLITION_BUILDING","拆除建築:</h2><p>如果你不再需要某個建築，你可以在這裡下令拆除。</p>");
 define("DEMOLISH","拆除");
 define("DEMOLITION_OF","拆除");
-define("MAINBUILDING_DESC","村庄大楼是建筑大师的住所。村庄大楼等级越高，建筑的建造速度就越快。");
+define("MAINBUILDING_DESC","村莊大樓是建築大師的住所。村莊大樓等級越高，建築的建造速度就越快。");
 
-define("RALLYPOINT","集结点");
-define("RALLYPOINT_COMMENCE","当 ".RALLYPOINT." 建造完毕时，将显示部队动向");
-define("OVERVIEW","概览");
+define("RALLYPOINT","集結點");
+define("RALLYPOINT_COMMENCE","當 ".RALLYPOINT." 建造完畢時，將顯示部隊動向");
+define("OVERVIEW","概覽");
 define("REINFORCEMENT","增援");
-define("EVASION_SETTINGS","侵略设定");
+define("EVASION_SETTINGS","侵略設定");
 define("SEND_TROOPS_AWAY_MAX","Send troops away a maximum of");
 define("TIMES","times");
 define("PER_EVASION","per evasion");
-define("RALLYPOINT_DESC","村庄的部队在这里集合。你可以在这里派遣部队去征服、掠夺、侦查或增援其他地方。");
+define("RALLYPOINT_DESC","村莊的部隊在這裡集合。你可以在這裡派遣部隊去征服、掠奪、偵查或增援其他地方。");
 
-define("MARKETPLACE","市场");
+define("MARKETPLACE","市場");
 define("MERCHANT","商人");
 define("OR_","或");
-define("GO","出发");
-define("UNITS_OF_RESOURCE","单位资源");
-define("MERCHANT_CARRY","每个商人可以携带");
-define("MERCHANT_COMING","到来的商人");
-define("TRANSPORT_FROM","运送来自");
-define("ARRIVAL_IN","抵达剩余时间");
-define("NO_COORDINATES_SELECTED","未输入坐标");
-define("CANNOT_SEND_RESOURCES","你不能向本村运送资源");
-define("BANNED_CANNOT_SEND_RESOURCES","玩家已被封禁，你不能向其运送资源。");
-define("RESOURCES_NO_SELECTED","未输入资源");
-define("ENTER_COORDINATES","输入坐标或村庄名称");
+define("GO","出發");
+define("UNITS_OF_RESOURCE","單位資源");
+define("MERCHANT_CARRY","每個商人可以攜帶");
+define("MERCHANT_COMING","到來的商人");
+define("TRANSPORT_FROM","運送來自");
+define("ARRIVAL_IN","抵達剩餘時間");
+define("NO_COORDINATES_SELECTED","未輸入坐標");
+define("CANNOT_SEND_RESOURCES","你不能向本村運送資源");
+define("BANNED_CANNOT_SEND_RESOURCES","玩家已被封禁，你不能向其運送資源。");
+define("RESOURCES_NO_SELECTED","未輸入資源");
+define("ENTER_COORDINATES","輸入坐標或村莊名稱");
 define("TOO_FEW_MERCHANTS","商人不足");
 define("OWN_MERCHANTS_ONWAY","己方商人在途中");
 define("MERCHANTS_RETURNING","商人返回中");
-define("TRANSPORT_TO","运输至");
-define("I_AN_SEARCHING","我寻求");
+define("TRANSPORT_TO","運輸至");
+define("I_AN_SEARCHING","我尋求");
 define("I_AN_OFFERING","我提供");
-define("OFFERS_MARKETPLACE","市场中的报价");
-define("NO_AVAILABLE_OFFERS","市场中没有报价");
-define("OFFERED_TO_ME","提供<br>给我");
+define("OFFERS_MARKETPLACE","市場中的報價");
+define("NO_AVAILABLE_OFFERS","市場中沒有報價");
+define("OFFERED_TO_ME","提供<br>給我");
 define("WANTED_TO_ME","我<br>提供");
 define("NOT_ENOUGH_MERCHANTS","商人不足");
-define("ACCEP_OFFER","接受报价");
-define("NO_AVALIBLE_OFFERS","市场上没有可用的报价");
+define("ACCEP_OFFER","接受報價");
+define("NO_AVALIBLE_OFFERS","市場上沒有可用的報價");
 define("SEARCHING","搜索中");
-define("OFFERING","发出报价");
-define("MAX_TIME_TRANSPORT","运输次数达上限");
-define("OWN_ALLIANCE_ONLY","仅限联盟");
-define("INVALID_OFFER","报价不再可用");
-define("INVALID_MERCHANTS_REPETITION","不可用的商人重复次数");
-define("USER_ON_VACATION","用户正在度假");
-define("NOT_ENOUGH_RESOURCES","资源不足");
-define("OFFER","报价");
+define("OFFERING","發出報價");
+define("MAX_TIME_TRANSPORT","運輸次數達上限");
+define("OWN_ALLIANCE_ONLY","僅限聯盟");
+define("INVALID_OFFER","報價不再可用");
+define("INVALID_MERCHANTS_REPETITION","不可用的商人重複次數");
+define("USER_ON_VACATION","用戶正在度假");
+define("NOT_ENOUGH_RESOURCES","資源不足");
+define("OFFER","報價");
 define("SEARCH","搜索");
-define("OWN_OFFERS","我的报价");
+define("OWN_OFFERS","我的報價");
 define("ALL","所有");
-define("NPC_TRADE","资源置换");
-define("SUM","总计");
-define("REST","余下");
-define("TRADE_RESOURCES","交易资源 (第二步");
-define("DISTRIBUTE_RESOURCES","分配资源 (第一步)");
+define("NPC_TRADE","資源置換");
+define("SUM","總計");
+define("REST","餘下");
+define("TRADE_RESOURCES","交易資源 (第二步");
+define("DISTRIBUTE_RESOURCES","分配資源 (第一步)");
 define("OF","of");
-define("NPC_COMPLETED","资源置换完成");
-define("BACK_BUILDING","返回建筑");
-define("YOU_CAN_NAT_NPC_WW","在世界奇观村庄中不能进行资源置换。");
-define("NPC_TRADING","资源置换");
-define("SEND_RESOURCES","运送资源");
-define("BUY","购买");
-define("TRADE_ROUTES","贸易路线");
+define("NPC_COMPLETED","資源置換完成");
+define("BACK_BUILDING","返回建築");
+define("YOU_CAN_NAT_NPC_WW","在世界奇觀村莊中不能進行資源置換。");
+define("NPC_TRADING","資源置換");
+define("SEND_RESOURCES","運送資源");
+define("BUY","購買");
+define("TRADE_ROUTES","貿易路線");
 define("DESCRIPTION","描述");
-define("TIME_LEFT","剩余时间");
-define("START","开始");
-define("NO_TRADE_ROUTES","没有活跃的贸易路线");
-define("TRADE_ROUTE_TO","贸易路线至");
+define("TIME_LEFT","剩餘時間");
+define("START","開始");
+define("NO_TRADE_ROUTES","沒有活躍的貿易路線");
+define("TRADE_ROUTE_TO","貿易路線至");
 define("CHECKED","checked");
 define("DAYS","Days");
 define("EXTEND","Extend");
@@ -914,114 +914,114 @@ define("TRADE_ROUTES_DESC","Trade route allows you to set up routes for your mer
 define("NPC_TRADE_DESC","With the NPC merchant you can distribute the resources in your warehouse as you desire. <br /><br /> The first line shows the current stock. In the second line you can choose another distribution. The third line shows the difference between the old and new stock.");
 define("MARKETPLACE_DESC","At the Marketplace you can trade resources with other players. The higher its level, the more resources can be transported at the same time.");
 
-define("EMBASSY","大使馆");
-define("TAG","标签");
-define("TO_THE_ALLIANCE","前往联盟");
-define("JOIN_ALLIANCE","加入联盟");
-define("REFUSE","拒绝");
+define("EMBASSY","大使館");
+define("TAG","標籤");
+define("TO_THE_ALLIANCE","前往聯盟");
+define("JOIN_ALLIANCE","加入聯盟");
+define("REFUSE","拒絕");
 define("ACCEPT","接受");
-define("NO_INVITATIONS","没有有效的邀请。");
-define("NO_CREATE_ALLIANCE","被封禁的玩家不能创建联盟。");
-define("FOUND_ALLIANCE","创建联盟");
-define("EMBASSY_DESC","大使馆是进行外交活动的场所。 The higher its level the more options the king gains.");
+define("NO_INVITATIONS","沒有有效的邀請。");
+define("NO_CREATE_ALLIANCE","被封禁的玩家不能創建聯盟。");
+define("FOUND_ALLIANCE","創建聯盟");
+define("EMBASSY_DESC","大使館是進行外交活動的場所。 The higher its level the more options the king gains.");
 
-define("BARRACKS","兵营");
-define("QUANTITY","数量");
+define("BARRACKS","兵營");
+define("QUANTITY","數量");
 define("MAX","最大");
-define("TRAINING","训练中");
+define("TRAINING","訓練中");
 define("FINISHED","完成");
-define("UNIT_FINISHED","距离下一个单位训练完成");
+define("UNIT_FINISHED","距離下一個單位訓練完成");
 define("AVAILABLE","可用");
-define("TRAINING_COMMENCE_BARRACKS","兵营建造完成后才能开始训练。");
-define("BARRACKS_DESC","所有的步兵都在兵营中训练产生。兵营的等级越高，训练步兵的速度越快。");
+define("TRAINING_COMMENCE_BARRACKS","兵營建造完成後才能開始訓練。");
+define("BARRACKS_DESC","所有的步兵都在兵營中訓練產生。兵營的等級越高，訓練步兵的速度越快。");
 
-define("STABLE","马厩");
-define("AVAILABLE_ACADEMY","没有可训练单位。请先在学院研究。");
-define("TRAINING_COMMENCE_STABLE","马厩建造完成后才能开始训练。");
-define("STABLE_DESC","骑兵在马厩中训练。马厩的等级越高，训练骑兵的速度越快。");
+define("STABLE","馬廄");
+define("AVAILABLE_ACADEMY","沒有可訓練單位。請先在學院研究。");
+define("TRAINING_COMMENCE_STABLE","馬廄建造完成後才能開始訓練。");
+define("STABLE_DESC","騎兵在馬廄中訓練。馬廄的等級越高，訓練騎兵的速度越快。");
 
-define("WORKSHOP","攻城武器厂");
-define("TRAINING_COMMENCE_WORKSHOP","攻城武器厂建造完成后才能开始生产攻城武器。");
-define("WORKSHOP_DESC","诸如攻城锤、投石车等的攻城武器在攻城武器厂中生产。攻城武器厂等级越高，攻城武器的生产速度越快。");
+define("WORKSHOP","攻城武器廠");
+define("TRAINING_COMMENCE_WORKSHOP","攻城武器廠建造完成後才能開始生產攻城武器。");
+define("WORKSHOP_DESC","諸如攻城錘、投石車等的攻城武器在攻城武器廠中生產。攻城武器廠等級越高，攻城武器的生產速度越快。");
 
-define("ACADEMY","学院");
-define("RESEARCH_AVAILABLE","当前没有可研究的项目。");
-define("RESEARCH_COMMENCE_ACADEMY","当学院建造完成后才能开始研究。");
+define("ACADEMY","學院");
+define("RESEARCH_AVAILABLE","當前沒有可研究的項目。");
+define("RESEARCH_COMMENCE_ACADEMY","當學院建造完成後才能開始研究。");
 define("RESEARCH","研究");
-define("EXPAND_WAREHOUSE1","扩建仓库");
-define("EXPAND_GRANARY1","扩建粮仓");
-define("RESEARCH_IN_PROGRESS","研究<br>进行中");
+define("EXPAND_WAREHOUSE1","擴建倉庫");
+define("EXPAND_GRANARY1","擴建糧倉");
+define("RESEARCH_IN_PROGRESS","研究<br>進行中");
 define("RESEARCHING","研究中");
-define("PREREQUISITES","先决条件");
-define("SHOW_MORE","显示更多");
-define("HIDE_MORE","隐藏更多");
-define("ACADEMY_DESC","学院里可以研究新的兵种。更好的兵种通常需要更高等级的学院来解锁。");
+define("PREREQUISITES","先決條件");
+define("SHOW_MORE","顯示更多");
+define("HIDE_MORE","隱藏更多");
+define("ACADEMY_DESC","學院裡可以研究新的兵種。更好的兵種通常需要更高等級的學院來解鎖。");
 
 define("CRANNY","山洞");
-define("CURRENT_HIDDEN_UNITS","目前可以保护的各类资源:");
-define("HIDDEN_UNITS_LEVEL","保护的资源数量在等级");
-define("UNITS","单位");
-define("CRANNY_DESC","在村庄被攻击时，山洞隐藏的资源可以不被掠夺。");
+define("CURRENT_HIDDEN_UNITS","目前可以保護的各類資源:");
+define("HIDDEN_UNITS_LEVEL","保護的資源數量在等級");
+define("UNITS","單位");
+define("CRANNY_DESC","在村莊被攻擊時，山洞隱藏的資源可以不被掠奪。");
 
-define("TOWNHALL","市政厅");
-define("CELEBRATIONS_COMMENCE_TOWNHALL","市政厅建造完成后才可以开始举办庆典。");
-define("GREAT_CELEBRATIONS","大型庆典");
-define("CULTURE_POINTS","文化点数");
-define("HOLD","举办");
-define("CELEBRATIONS_IN_PROGRESS","庆典<br />正在进行中");
-define("CELEBRATIONS","庆典");
-define("TOWNHALL_DESC","你可以在市政厅举办盛大的庆典，获得大量文明点数。市政厅等级越高，举办庆典的时间越短。");
+define("TOWNHALL","市政廳");
+define("CELEBRATIONS_COMMENCE_TOWNHALL","市政廳建造完成後才可以開始舉辦慶典。");
+define("GREAT_CELEBRATIONS","大型慶典");
+define("CULTURE_POINTS","文化點數");
+define("HOLD","舉辦");
+define("CELEBRATIONS_IN_PROGRESS","慶典<br />正在進行中");
+define("CELEBRATIONS","慶典");
+define("TOWNHALL_DESC","你可以在市政廳舉辦盛大的慶典，獲得大量文明點數。市政廳等級越高，舉辦慶典的時間越短。");
 
-define("RESIDENCE","行宫");
-define("CAPITAL","这里是你的首都");
-define("RESIDENCE_TRAIN_DESC","你需要10级或20级行宫和三个拓荒者来开辟新村庄。你需要10级或20级行宫和一个参议员、司令官或族长来征服其他村庄。");
+define("RESIDENCE","行宮");
+define("CAPITAL","這裡是你的首都");
+define("RESIDENCE_TRAIN_DESC","你需要10級或20級行宮和三個拓荒者來開闢新村莊。你需要10級或20級行宮和一個參議員、司令官或族長來征服其他村莊。");
 define("PRODUCTION_POINTS","本村的生成速度:");
-define("PRODUCTION_ALL_POINTS","所有村庄的生成速度:");
-define("POINTS_DAY","文化点数每天");
-define("VILLAGES_PRODUCED","你的村庄共计已经生成了");
-define("POINTS_NEED","文化点数。为了开辟或征服新村庄，你需要");
-define("POINTS","文化点数");
+define("PRODUCTION_ALL_POINTS","所有村莊的生成速度:");
+define("POINTS_DAY","文化點數每天");
+define("VILLAGES_PRODUCED","你的村莊共計已經生成了");
+define("POINTS_NEED","文化點數。為了開闢或征服新村莊，你需要");
+define("POINTS","文化點數");
 define("INHABITANTS","村民");
-define("COORDINATES","坐标");
-define("EXPANSION","扩张");
-define("TRAIN","训练");
+define("COORDINATES","坐標");
+define("EXPANSION","擴張");
+define("TRAIN","訓練");
 define("DATE","日期");
-define("CONQUERED_BY_VILLAGE","由本村开辟或征服的村庄");
-define("NONE_CONQUERED_BY_VILLAGE","本村还没有建立或开辟村庄。");
-define("RESIDENCE_CULTURE_DESC","你需要文化点数来扩张你的帝国。文化点数随时间生成，你的建筑物越多、等级越高，生成文化点数的速度就越快。");
-define("RESIDENCE_LOYALTY_DESC","在强攻时，部队中若有参议员、司令官或族长，被攻击的村庄忠诚度就会降低。如果忠诚度降为 0 ，村庄就会加入攻击者的国家。本村当前忠诚度为 ");
-define("RESIDENCE_DESC","行宫是一座小型宫殿，供国王或王后在访问村庄时居住。行宫可以防止敌人征服村庄。");
+define("CONQUERED_BY_VILLAGE","由本村開闢或征服的村莊");
+define("NONE_CONQUERED_BY_VILLAGE","本村還沒有建立或開闢村莊。");
+define("RESIDENCE_CULTURE_DESC","你需要文化點數來擴張你的帝國。文化點數隨時間生成，你的建築物越多、等級越高，生成文化點數的速度就越快。");
+define("RESIDENCE_LOYALTY_DESC","在強攻時，部隊中若有參議員、司令官或族長，被攻擊的村莊忠誠度就會降低。如果忠誠度降為 0 ，村莊就會加入攻擊者的國家。本村當前忠誠度為 ");
+define("RESIDENCE_DESC","行宮是一座小型宮殿，供國王或王后在訪問村莊時居住。行宮可以防止敵人征服村莊。");
 
-define("PALACE","皇宫");
-define("PALACE_CONSTRUCTION","皇宫已在建造中");
-define("PALACE_TRAIN_DESC","你需要10级、15级或20级皇宫和三个拓荒者来开辟新村庄。你需要10级、15级或20级皇宫和一个参议员、司令官或族长来征服其他村庄。");
-define("CHANGE_CAPITAL","迁都");
-define("SECURITY_CHANGE_CAPITAL","你确定要迁都吗?<br /><b>该操作不可撤销!</b><br />为了安全起见，你必须输入密码来确认:<br />");
-define("PALACE_DESC","帝国的国王或皇后居住在这座宫殿中。你的王国只能有一座皇宫。你需要皇宫来指定首都的所在。");
+define("PALACE","皇宮");
+define("PALACE_CONSTRUCTION","皇宮已在建造中");
+define("PALACE_TRAIN_DESC","你需要10級、15級或20級皇宮和三個拓荒者來開闢新村莊。你需要10級、15級或20級皇宮和一個參議員、司令官或族長來征服其他村莊。");
+define("CHANGE_CAPITAL","遷都");
+define("SECURITY_CHANGE_CAPITAL","你確定要遷都嗎?<br /><b>該操作不可撤銷!</b><br />為了安全起見，你必須輸入密碼來確認:<br />");
+define("PALACE_DESC","帝國的國王或皇后居住在這座宮殿中。你的王國只能有一座皇宮。你需要皇宮來指定首都的所在。");
 
-define("TREASURY","宝物库");
-define("TREASURY_COMMENCE","宝物库建造完成后可以查看宝物。");
-define("ARTIFACTS_AREA","你附近的宝物");
-define("NO_ARTIFACTS_AREA","你附近没有宝物。");
-define("OWN_ARTIFACTS","你的宝物");
+define("TREASURY","寶物庫");
+define("TREASURY_COMMENCE","寶物庫建造完成後可以查看寶物。");
+define("ARTIFACTS_AREA","你附近的寶物");
+define("NO_ARTIFACTS_AREA","你附近沒有寶物。");
+define("OWN_ARTIFACTS","你的寶物");
 define("CONQUERED","已征服");
-define("DISTANCE","距离");
+define("DISTANCE","距離");
 define("EFFECT","效果");
-define("ACCOUNT","账号");
-define("SMALL_ARTIFACTS","小型宝物");
-define("LARGE_ARTIFACTS","大型宝物");
-define("NO_ARTIFACTS","没有宝物。");
-define("ANY_ARTIFACTS","你没有任何宝物。");
+define("ACCOUNT","帳號");
+define("SMALL_ARTIFACTS","小型寶物");
+define("LARGE_ARTIFACTS","大型寶物");
+define("NO_ARTIFACTS","沒有寶物。");
+define("ANY_ARTIFACTS","你沒有任何寶物。");
 define("OWNER","所有者");
-define("AREA_EFFECT","作用范围");
-define("VILLAGE_EFFECT","村庄效果");
-define("ACCOUNT_EFFECT","账号效果");
-define("UNIQUE_EFFECT","独特效果");
-define("REQUIRED_LEVEL","等级要求");
-define("TIME_CONQUER","征服时间");
-define("TIME_ACTIVATION","激活时间");
-define("NEXT_EFFECT"," 下一个效果");
-define("FORMER_OWNER","曾经的所有者");
+define("AREA_EFFECT","作用範圍");
+define("VILLAGE_EFFECT","村莊效果");
+define("ACCOUNT_EFFECT","帳號效果");
+define("UNIQUE_EFFECT","獨特效果");
+define("REQUIRED_LEVEL","等級要求");
+define("TIME_CONQUER","征服時間");
+define("TIME_ACTIVATION","啟用時間");
+define("NEXT_EFFECT"," 下一個效果");
+define("FORMER_OWNER","曾經的所有者");
 define("BUILDING_STRONGER","Building stronger with");
 define("BUILDING_WEAKER","Building weaker with");
 define("TROOPS_FASTER","Makes troops faster with");
@@ -1038,118 +1038,118 @@ define("CRANNY_DECRESE","Cranny capacity is decrese by");
 define("WW_BUILDING_PLAN","You can build the Wonder of the World");
 define("NO_WW","There are no Wonders of the World");
 define("NO_PREVIOUS_OWNERS","There are no previous owners.");
-define("TREASURY_DESC","帝国最珍贵的财富保存在宝物库中。宝物库只能存下一件宝物。获得宝物后需要存放一段时间才开始生效。After you have captured an artefact it takes 24 hours on a normal server or 12 hours on a thrice speed server to be effective.");
+define("TREASURY_DESC","帝國最珍貴的財富保存在寶物庫中。寶物庫只能存下一件寶物。獲得寶物後需要存放一段時間才開始生效。After you have captured an artefact it takes 24 hours on a normal server or 12 hours on a thrice speed server to be effective.");
 
 define("TRADEOFFICE","交易所");
-define("CURRENT_MERCHANT","当前商人运载量:");
-define("MERCHANT_LEVEL","商人运载量在等级");
-define("TRADEOFFICE_DESC","商人在交易所可以获得更大的马车和更好的马。交易所等级越高，你的商人可以运送的资源越多。");
+define("CURRENT_MERCHANT","當前商人運載量:");
+define("MERCHANT_LEVEL","商人運載量在等級");
+define("TRADEOFFICE_DESC","商人在交易所可以獲得更大的馬車和更好的馬。交易所等級越高，你的商人可以運送的資源越多。");
 
-define("GREATBARRACKS","大兵营");
-define("TRAINING_COMMENCE_GREATBARRACKS","大兵营建造完成后才能开始训练。");
+define("GREATBARRACKS","大兵營");
+define("TRAINING_COMMENCE_GREATBARRACKS","大兵營建造完成後才能開始訓練。");
 define("GREATBARRACKS_DESC","Foot soldiers are trained in the great barracks. The higher the level of the barracks, the faster the troops are trained.");
 
-define("GREATSTABLE","大马厩");
-define("TRAINING_COMMENCE_GREATSTABLE","大马厩建造完成后才能开始训练。");
+define("GREATSTABLE","大馬廄");
+define("TRAINING_COMMENCE_GREATSTABLE","大馬廄建造完成後才能開始訓練。");
 define("GREATSTABLE_DESC","Cavalry can be trained in the great stable. The higher its level the faster the troops are trained.");
 
-define("CITYWALL","城墙");
-define("DEFENCE_NOW","当前防御加成:");
-define("DEFENCE_LEVEL","防御加成在等级");
-define("CITYWALL_DESC","建造城墙可以保护你的村庄，你的士兵可以依托城墙更好地抵御外敌。城墙等级越高，防御加成越高。");
+define("CITYWALL","城牆");
+define("DEFENCE_NOW","當前防禦加成:");
+define("DEFENCE_LEVEL","防禦加成在等級");
+define("CITYWALL_DESC","建造城牆可以保護你的村莊，你的士兵可以依託城牆更好地抵禦外敵。城牆等級越高，防禦加成越高。");
 
-define("EARTHWALL","土墙");
-define("EARTHWALL_DESC","建造土墙可以保护你的村庄，因为你的士兵可以依托土墙更好地抵御外敌。土墙等级越高，防御加成越高。");
+define("EARTHWALL","土牆");
+define("EARTHWALL_DESC","建造土牆可以保護你的村莊，因為你的士兵可以依託土牆更好地抵禦外敵。土牆等級越高，防禦加成越高。");
 
-define("PALISADE","木栅栏");
-define("PALISADE_DESC","建造木栅栏可以保护你的村庄，因为你的士兵可以依托木栅栏更好地抵御外敌。木栅栏等级越高，防御加成越高。");
+define("PALISADE","木柵欄");
+define("PALISADE_DESC","建造木柵欄可以保護你的村莊，因為你的士兵可以依託木柵欄更好地抵禦外敵。木柵欄等級越高，防禦加成越高。");
 
 define("STONEMASON","石匠小屋");
-define("CURRENT_STABILITY","当前耐久度加成:");
-define("STABILITY_LEVEL","耐久度加成在等级");
-define("STONEMASON_DESC","石匠是强化建筑的大师。石匠小屋等级越高，村庄建筑的耐久度越高。");
+define("CURRENT_STABILITY","當前耐久度加成:");
+define("STABILITY_LEVEL","耐久度加成在等級");
+define("STONEMASON_DESC","石匠是強化建築的大師。石匠小屋等級越高，村莊建築的耐久度越高。");
 
-define("BREWERY","酿酒厂");
-define("CURRENT_BONUS","当前加成:");
-define("BONUS_LEVEL","加成在等级");
+define("BREWERY","釀酒廠");
+define("CURRENT_BONUS","當前加成:");
+define("BONUS_LEVEL","加成在等級");
 define("BREWERY_DESC","美味的蜂蜜酒……咕嘟咕嘟咕嘟……");
 
-define("TRAPPER","陷阱机");
-define("CURRENT_TRAPS","当前最大陷阱容量:");
+define("TRAPPER","陷阱機");
+define("CURRENT_TRAPS","當前最大陷阱容量:");
 define("TRAPS_LEVEL","最大陷阱容量在");
 define("TRAPS","陷阱");
 define("TRAP","陷阱");
-define("CURRENT_HAVE","你目前拥有");
-define("WHICH_OCCUPIED","被俘获");
-define("TRAINING_COMMENCE_TRAPPER","陷阱机建造完成后才能制作陷阱。");
-define("TRAPPER_DESC","陷阱机通过隐藏的陷阱来保护你的村庄。被陷阱捕获的敌人将无力攻击你的村庄。");
+define("CURRENT_HAVE","你目前擁有");
+define("WHICH_OCCUPIED","被俘獲");
+define("TRAINING_COMMENCE_TRAPPER","陷阱機建造完成後才能製作陷阱。");
+define("TRAPPER_DESC","陷阱機透過隱藏的陷阱來保護你的村莊。被陷阱捕獲的敵人將無力攻擊你的村莊。");
 
-define("HEROSMANSION","英雄园");
-define("HERO_READY","距离英雄就绪 ");
-define("NAME_CHANGED","英雄名称已更改");
-define("NOT_UNITS","不可用的单位");
+define("HEROSMANSION","英雄園");
+define("HERO_READY","距離英雄就緒 ");
+define("NAME_CHANGED","英雄名稱已更改");
+define("NOT_UNITS","不可用的單位");
 define("NOT","不 ");
-define("TRAIN_HERO","训练新的英雄");
+define("TRAIN_HERO","訓練新的英雄");
 define("REVIVE","重生");
-define("OASES","绿洲");
-define("DELETE","删除");
-define("RESOURCES","资源");
-define("OFFENCE","个体攻击力");
-define("DEFENCE","个体防御力");
-define("OFF_BONUS","全军攻击加成");
-define("DEF_BONUS","全军防御加成");
-define("REGENERATION","恢复速度");
+define("OASES","綠洲");
+define("DELETE","刪除");
+define("RESOURCES","資源");
+define("OFFENCE","個體攻擊力");
+define("DEFENCE","個體防禦力");
+define("OFF_BONUS","全軍攻擊加成");
+define("DEF_BONUS","全軍防禦加成");
+define("REGENERATION","恢復速度");
 define("DAY","天");
-define("EXPERIENCE","经验值");
+define("EXPERIENCE","經驗值");
 define("YOU_CAN","你可以 ");
-define("RESET","重置");
-define("YOUR_POINT_UNTIL"," 你的点数，直到等级达到 ");
+define("RESET","重設");
+define("YOUR_POINT_UNTIL"," 你的點數，直到等級達到 ");
 define("OR_LOWER"," !");
-define("YOUR_HERO_HAS","你的英雄拥有 ");
-define("OF_HIT_POINTS","点生命值");
-define("ERROR_NAME_SHORT","错误: 名称太短");
-define("HEROSMANSION_DESC"," 在英雄园，你可以训练你的英雄。英雄园等级到达10、15和20时分别可以多攻占一片村庄附近的绿洲。");
+define("YOUR_HERO_HAS","你的英雄擁有 ");
+define("OF_HIT_POINTS","點生命值");
+define("ERROR_NAME_SHORT","錯誤: 名稱太短");
+define("HEROSMANSION_DESC"," 在英雄園，你可以訓練你的英雄。英雄園等級到達10、15和20時分別可以多攻占一片村莊附近的綠洲。");
 
-define("GREATWAREHOUSE","大仓库");
+define("GREATWAREHOUSE","大倉庫");
 define("GREATWAREHOUSE_DESC","Wood, clay and iron are stored in the warehouse. The great warehouse offers you more space and keeps your goods drier and safer than the normal one.");
 
-define("GREATGRANARY","大粮仓");
+define("GREATGRANARY","大糧倉");
 define("GREATGRANARY_DESC","Crop produced by your farms is stored in the granary. The great granary offers you more space and keeps your crops drier and safer than the normal one.");
 
-define("WONDER","世界奇观");
-define("WORLD_WONDER","世界奇观");
-define("WONDER_DESC","世界奇观是帝国强大和繁荣的丰碑，是赢得游戏的目标。世界奇观每提升一级都需要耗费不计其数的资源。");
-define("WORLD_WONDER_CHANGE_NAME","你需要建造一级世界奇观才能更改它的名称");
-define("WORLD_WONDER_NAME","世界奇观名称");
-define("WORLD_WONDER_NOTCHANGE_NAME","世界奇观10级之后不能再更改名称");
-define("WORLD_WONDER_NAME_CHANGED","名称已更改");
+define("WONDER","世界奇觀");
+define("WORLD_WONDER","世界奇觀");
+define("WONDER_DESC","世界奇觀是帝國強大和繁榮的豐碑，是贏得遊戲的目標。世界奇觀每提升一級都需要耗費不計其數的資源。");
+define("WORLD_WONDER_CHANGE_NAME","你需要建造一級世界奇觀才能更改它的名稱");
+define("WORLD_WONDER_NAME","世界奇觀名稱");
+define("WORLD_WONDER_NOTCHANGE_NAME","世界奇觀10級之後不能再更改名稱");
+define("WORLD_WONDER_NAME_CHANGED","名稱已更改");
 
-define("HORSEDRINKING","饮马槽");
-define("HORSEDRINKING_DESC","饮马槽是罗马人加快骑兵训练速度、降低骑兵粮耗的独特技术。");
+define("HORSEDRINKING","飲馬槽");
+define("HORSEDRINKING_DESC","飲馬槽是羅馬人加快騎兵訓練速度、降低騎兵糧耗的獨特技術。");
 
-define("GREATWORKSHOP","大攻城武器厂");
+define("GREATWORKSHOP","大攻城武器廠");
 define("TRAINING_COMMENCE_GREATWORKSHOP","Training can commence when great workshop is completed.");
 define("GREATWORKSHOP_DESC","Siege engines like catapults and rams can be built in the great workshop. The higher its level the faster the units are produced.");
 
-define("BUILDING_MAX_LEVEL_UNDER","建筑正在升级至最高等级");
-define("BUILDING_BEING_DEMOLISHED","建筑正在被拆除");
-define("COSTS_UPGRADING_LEVEL","消耗下列资源</b> 以升至等级");
-define("WORKERS_ALREADY_WORK","工人已经在工作中。");
-define("CONSTRUCTING_MASTER_BUILDER","令建筑大师等待建造 ");
+define("BUILDING_MAX_LEVEL_UNDER","建築正在升級至最高等級");
+define("BUILDING_BEING_DEMOLISHED","建築正在被拆除");
+define("COSTS_UPGRADING_LEVEL","消耗下列資源</b> 以升至等級");
+define("WORKERS_ALREADY_WORK","工人已經在工作中。");
+define("CONSTRUCTING_MASTER_BUILDER","令建築大師等待建造 ");
 define("COSTS","消耗");
-define("GOLD","金币");
-define("WORKERS_ALREADY_WORK_WAITING","工人已经在工作中。 (加入建造队列)");
-define("ENOUGH_FOOD_EXPAND_CROPLAND","粮食产量不足，请先扩建农田。");
-define("UPGRADE_WAREHOUSE","升级仓库");
-define("UPGRADE_GRANARY","升级粮仓");
-define("YOUR_CROP_NEGATIVE","你的粮食产量为负，你不可能达到所需的资源。");
-define("UPGRADE_LEVEL","升至等级 ");
-define("WAITING","(等待队列)");
-define("NEED_WWCONSTRUCTION_PLAN","需要世界奇观蓝图");
-define("NEED_MORE_WWCONSTRUCTION_PLAN","需要更多世界奇观蓝图");
-define("CONSTRUCT_NEW_BUILDING","建造新建筑");
-define("SHOWSOON_AVAILABLE_BUILDINGS","显示即将可用的建筑");
-define("HIDESOON_AVAILABLE_BUILDINGS","隐藏即将可用的建筑");
+define("GOLD","金幣");
+define("WORKERS_ALREADY_WORK_WAITING","工人已經在工作中。 (加入建造隊列)");
+define("ENOUGH_FOOD_EXPAND_CROPLAND","糧食產量不足，請先擴建農田。");
+define("UPGRADE_WAREHOUSE","升級倉庫");
+define("UPGRADE_GRANARY","升級糧倉");
+define("YOUR_CROP_NEGATIVE","你的糧食產量為負，你不可能達到所需的資源。");
+define("UPGRADE_LEVEL","升至等級 ");
+define("WAITING","(等待隊列)");
+define("NEED_WWCONSTRUCTION_PLAN","需要世界奇觀藍圖");
+define("NEED_MORE_WWCONSTRUCTION_PLAN","需要更多世界奇觀藍圖");
+define("CONSTRUCT_NEW_BUILDING","建造新建築");
+define("SHOWSOON_AVAILABLE_BUILDINGS","顯示即將可用的建築");
+define("HIDESOON_AVAILABLE_BUILDINGS","隱藏即將可用的建築");
 
 //artefact
 define("ARCHITECTS_DESC","All buildings in the area of effect are stronger. This means that you will need more catapults to damage buildings protected by this artifacts powers.");
@@ -1225,7 +1225,7 @@ If not, the next attack on that village, winning with a hero and empty treasury 
 
 To build a WW, you must own a plan yourself (you = the WW village owner) from lvl 0 to 50, from 51 to 100 you need an additional plan in your alliance! Two plans in the WW village account would not work!
 
-The construction plans are conquerable immediately when they appear to the server. 
+The construction plans are conquerable immediately when they appear to the server.
 
 There will be a countdown in game, showing the exact time of the release, 5 days prior to the launch. ");
 
@@ -1252,7 +1252,7 @@ If not, the next attack on that village, winning with a SENATORS , CHIEF , CHIEF
 
 To build a WW, you must own a plan yourself (you = the WW village owner) from lvl 0 to 50, from 51 to 100 you need an additional plan in your alliance! Two plans in the WW village account would not work!
 
-The construction plans are conquerable immediately when they appear to the server. 
+The construction plans are conquerable immediately when they appear to the server.
 
 There will be a countdown in game, showing the exact time of the release, ".(5 / SPEED)." days prior to the launch. ");
 
@@ -1263,13 +1263,13 @@ define("PLAN_DESC","With this ancient construction plan you will able to build W
 define("PLAN_INFO","<h1><b>World Wonder Construction Plans</b></h1>
 
 
-Many moons ago the tribes of Travian were surprised by the unforeseen return of the Natars. This tribe from immemorial times surpassing all in wisdom, might and glory was about to trouble the free ones again. Thus they put all their efforts in preparing a last war against the Natars and vanquishing them forever. Many thought about the so-called 'Wonders of the World', a construction of many legends, as the only solution. It was told that it would render anyone invincible once completed. Ultimately making the constructors the rulers and conquerors of all known Travian. 
+Many moons ago the tribes of Travian were surprised by the unforeseen return of the Natars. This tribe from immemorial times surpassing all in wisdom, might and glory was about to trouble the free ones again. Thus they put all their efforts in preparing a last war against the Natars and vanquishing them forever. Many thought about the so-called 'Wonders of the World', a construction of many legends, as the only solution. It was told that it would render anyone invincible once completed. Ultimately making the constructors the rulers and conquerors of all known Travian.
 
-However, it was also told that one would need construction plans to construct such a building. Due to this fact, the architects devised cunning plans about how to store these safely. After a while, one could see temple-like buildings in many a city and metropolis - the Treasure Chambers (Treasuries). 
+However, it was also told that one would need construction plans to construct such a building. Due to this fact, the architects devised cunning plans about how to store these safely. After a while, one could see temple-like buildings in many a city and metropolis - the Treasure Chambers (Treasuries).
 
-Sadly, no one - not even the wise and well versed - knew where to find these construction plans. The harder people tried to locate them, the more it seemed as if they where only legends. 
+Sadly, no one - not even the wise and well versed - knew where to find these construction plans. The harder people tried to locate them, the more it seemed as if they where only legends.
 
-Today, however, this last secret will be revealed. Deprivations and endeavors of the past will not have been in vain, as today scouts of several tribes have successfully obtained the whereabouts of the construction plans. Well guarded by the Natars, they lie hidden in several oases to be found all over Travian. Only the most valiant heroes will be able to secure such a plan and bring it home safely so that the construction can begin. 
+Today, however, this last secret will be revealed. Deprivations and endeavors of the past will not have been in vain, as today scouts of several tribes have successfully obtained the whereabouts of the construction plans. Well guarded by the Natars, they lie hidden in several oases to be found all over Travian. Only the most valiant heroes will be able to secure such a plan and bring it home safely so that the construction can begin.
 
 In the end, we will see whether the free tribes of Travian can once again outwit the Natars and vanquish them once and for all. Do not be so foolish as to assume that the Natars will leave without a fight, though!
 
@@ -1291,10 +1291,10 @@ To build a World Wonder, you must own the Construction Plans yourself (you = the
 
 //Admin setting - Admin/Templates/config.tpl & editServerSet.tpl
 define("EDIT_BACK","返回");
-define("SERV_CONFIG","服务器配置");
-define("SERV_SETT","服务器设置");
-define("EDIT_SERV_SETT","编辑服务器设置");
-define("SERV_VARIABLE","变量");
+define("SERV_CONFIG","伺服器配置");
+define("SERV_SETT","伺服器設置");
+define("EDIT_SERV_SETT","編輯伺服器設置");
+define("SERV_VARIABLE","變數");
 define("SERV_VALUE","值");
 define("CONF_SERV_NAME","Server Name");
 define("CONF_SERV_NAME_TOOLTIP","Name of the game server.");
@@ -1478,39 +1478,39 @@ define("CONF_ADMIN_RAIDATT_TOOLTIP","Enable (True) or disable (False) the abilit
 |--------------------------------------------------------------------------
 */
 
-	   $lang['index'][0][1] = "欢迎来到 " . SERVER_NAME . "";
-	   $lang['index'][0][2] = "手册";
-	   $lang['index'][0][3] = "现在就能免费游玩!";
-	   $lang['index'][0][4] = "什么是 " . SERVER_NAME . "";
-	   $lang['index'][0][5] = "Travian曾是风靡全球的网页游戏，此版本是由开源社区开发者贡献的经典T3.6版本TravianZ，详见GitHub。汉化文本由Muchen Fan完成。本服务器仅供测试、交流、学习之用。请不要使用游戏内的充值接口。" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
-	   $lang['index'][0][6] = "点击此处即刻开始游玩 " . SERVER_NAME . "";
-	   $lang['index'][0][7] = "玩家总数";
-	   $lang['index'][0][8] = "活跃玩家";
-	   $lang['index'][0][9] = "在线玩家";
-	   $lang['index'][0][10] = "关于游戏";
-	   $lang['index'][0][11] = "你将从一个小村庄的头领开始，谱写英雄的故事。";
-	   $lang['index'][0][12] = "建立村庄，发动战争，与邻居建立贸易路线。";
-	   $lang['index'][0][13] = "与其他真实玩家或对抗、或合作，征服Travian游戏世界。";
-	   $lang['index'][0][14] = "新闻";
+	   $lang['index'][0][1] = "歡迎來到 " . SERVER_NAME . "";
+	   $lang['index'][0][2] = "手冊";
+	   $lang['index'][0][3] = "現在就能免費遊玩!";
+	   $lang['index'][0][4] = "什麼是 " . SERVER_NAME . "";
+	   $lang['index'][0][5] = "Travian曾是風靡全球的網頁遊戲，此版本是由開源社區開發者貢獻的經典T3.6版本TravianZ，詳見GitHub。漢化文本由Muchen Fan完成。本伺服器僅供測試、交流、學習之用。請不要使用遊戲內的儲值介面。" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
+	   $lang['index'][0][6] = "點擊此處即刻開始遊玩 " . SERVER_NAME . "";
+	   $lang['index'][0][7] = "玩家總數";
+	   $lang['index'][0][8] = "活躍玩家";
+	   $lang['index'][0][9] = "在線玩家";
+	   $lang['index'][0][10] = "關於遊戲";
+	   $lang['index'][0][11] = "你將從一個小村莊的頭領開始，譜寫英雄的故事。";
+	   $lang['index'][0][12] = "建立村莊，發動戰爭，與鄰居建立貿易路線。";
+	   $lang['index'][0][13] = "與其他真實玩家或對抗、或合作，征服Travian遊戲世界。";
+	   $lang['index'][0][14] = "新聞";
 	   $lang['index'][0][15] = "FAQ";
-	   $lang['index'][0][16] = "截图";
-	   $lang['forum'] = "论坛";
-	   $lang['register'] = "注册";
-	   $lang['login'] = "登录";
-	   $lang['screenshots']['title1']="村庄";
-	   $lang['screenshots']['desc1']="村庄建筑";
-           $lang['screenshots']['title2']="资源";
-           $lang['screenshots']['desc2']="村庄资源分为木材、黏土、铁矿和粮食";
-           $lang['screenshots']['title3']="地图";
-           $lang['screenshots']['desc3']="你的村庄在地图上的位置";
-           $lang['screenshots']['title4']="建造建筑";
-           $lang['screenshots']['desc4']="建造建筑和提升等级的方式";
-           $lang['screenshots']['title5']="报告";
-           $lang['screenshots']['desc5']="你的攻击报告";
-           $lang['screenshots']['title6']="统计";
-           $lang['screenshots']['desc6']="在统计中查看你的排名";
+	   $lang['index'][0][16] = "截圖";
+	   $lang['forum'] = "論壇";
+	   $lang['register'] = "註冊";
+	   $lang['login'] = "登錄";
+	   $lang['screenshots']['title1']="村莊";
+	   $lang['screenshots']['desc1']="村莊建築";
+           $lang['screenshots']['title2']="資源";
+           $lang['screenshots']['desc2']="村莊資源分為木材、黏土、鐵礦和糧食";
+           $lang['screenshots']['title3']="地圖";
+           $lang['screenshots']['desc3']="你的村莊在地圖上的位置";
+           $lang['screenshots']['title4']="建造建築";
+           $lang['screenshots']['desc4']="建造建築和提升等級的方式";
+           $lang['screenshots']['title5']="報告";
+           $lang['screenshots']['desc5']="你的攻擊報告";
+           $lang['screenshots']['title6']="統計";
+           $lang['screenshots']['desc6']="在統計中查看你的排名";
            $lang['screenshots']['title7']="狼或羊";
-           $lang['screenshots']['desc7']="你可以选择发展军事或是发展经济、或是两者齐头并进";
+           $lang['screenshots']['desc7']="你可以選擇發展軍事或是發展經濟、或是兩者齊頭並進";
 
 
 ?>
