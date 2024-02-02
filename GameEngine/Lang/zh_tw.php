@@ -169,9 +169,9 @@ define("Q2_RESP","很好，你的人民吃得飽飯了。");
 define("Q2_REWARD","你的獎勵:<\/p>1 天 Travian");
 
 define("Q3","任務 3: 你村莊的名字");
-define("Q3_DESC","Creative as you are you can grant your village the ultimate name.<br \/><br \/>Click on 'profile' in the left hand menu and then select 'change profile'...");
-define("Q3_ORDER","Order:<\/p>Change your village's name to something nice.");
-define("Q3_RESP","Wow, a great name for their village. It could have been the name of my village!...");
+define("Q3_DESC","你可以發揮創意，為你的村莊取一個終極的名字。<br \/><br \/>點擊左側菜單中的 '個人資料'，然後選擇 '更改個人資料'...");
+define("Q3_ORDER","命令:<\/p>將你的村莊名稱更改為某些好聽的名字。");
+define("Q3_RESP","哇，一個很棒的名字給他們的村莊。這本來可以是我的村莊的名字！...");
 
 define("Q4","任務 4: Other Players");
 define("Q4_DESC","In ". SERVER_NAME ." you play along with billions of other players. Click 'statistics' in the top menu to look up your rank and enter it here.");
@@ -555,16 +555,16 @@ define("U49","納塔帝王");
 define("U50","納塔拓荒者");
 
 //MONSTER UNITS
-define("U51","Monster Peon");
-define("U52","Monster Hunter");
-define("U53","Monster Warrior");
-define("U54","Ghost");
-define("U55","Monster Steed");
-define("U56","Monster War Steed");
-define("U57","Monster Ram");
-define("U58","Monster Catapult");
-define("U59","Monster Chief");
-define("U60","Monster Settler");
+define("U51","怪物苦力");
+define("U52","怪物獵人");
+define("U53","怪物戰士");
+define("U54","鬼魂");
+define("U55","怪物坐騎");
+define("U56","怪物戰爭坐騎");
+define("U57","怪物攻城獸");
+define("U58","怪物投石車");
+define("U59","怪物酋長");
+define("U60","怪物定居者");
 
 // RESOURCES
 define("R1","木材");
@@ -1478,39 +1478,37 @@ define("CONF_ADMIN_RAIDATT_TOOLTIP","Enable (True) or disable (False) the abilit
 |--------------------------------------------------------------------------
 */
 
-	   $lang['index'][0][1] = "歡迎來到 " . SERVER_NAME . "";
-	   $lang['index'][0][2] = "手冊";
-	   $lang['index'][0][3] = "現在就能免費遊玩!";
-	   $lang['index'][0][4] = "什麼是 " . SERVER_NAME . "";
-	   $lang['index'][0][5] = "Travian曾是風靡全球的網頁遊戲，此版本是由開源社區開發者貢獻的經典T3.6版本TravianZ，詳見GitHub。漢化文本由Muchen Fan完成。本伺服器僅供測試、交流、學習之用。請不要使用遊戲內的儲值介面。" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
-	   $lang['index'][0][6] = "點擊此處即刻開始遊玩 " . SERVER_NAME . "";
-	   $lang['index'][0][7] = "玩家總數";
-	   $lang['index'][0][8] = "活躍玩家";
-	   $lang['index'][0][9] = "在線玩家";
-	   $lang['index'][0][10] = "關於遊戲";
-	   $lang['index'][0][11] = "你將從一個小村莊的頭領開始，譜寫英雄的故事。";
-	   $lang['index'][0][12] = "建立村莊，發動戰爭，與鄰居建立貿易路線。";
-	   $lang['index'][0][13] = "與其他真實玩家或對抗、或合作，征服Travian遊戲世界。";
-	   $lang['index'][0][14] = "新聞";
-	   $lang['index'][0][15] = "FAQ";
-	   $lang['index'][0][16] = "截圖";
-	   $lang['forum'] = "論壇";
-	   $lang['register'] = "註冊";
-	   $lang['login'] = "登錄";
-	   $lang['screenshots']['title1']="村莊";
-	   $lang['screenshots']['desc1']="村莊建築";
-           $lang['screenshots']['title2']="資源";
-           $lang['screenshots']['desc2']="村莊資源分為木材、黏土、鐵礦和糧食";
-           $lang['screenshots']['title3']="地圖";
-           $lang['screenshots']['desc3']="你的村莊在地圖上的位置";
-           $lang['screenshots']['title4']="建造建築";
-           $lang['screenshots']['desc4']="建造建築和提升等級的方式";
-           $lang['screenshots']['title5']="報告";
-           $lang['screenshots']['desc5']="你的攻擊報告";
-           $lang['screenshots']['title6']="統計";
-           $lang['screenshots']['desc6']="在統計中查看你的排名";
-           $lang['screenshots']['title7']="狼或羊";
-           $lang['screenshots']['desc7']="你可以選擇發展軍事或是發展經濟、或是兩者齊頭並進";
-
-
+$lang['index'][0][1] = "歡迎來到 " . SERVER_NAME . "";
+$lang['index'][0][2] = "手冊";
+$lang['index'][0][3] = "現在就能免費遊玩!";
+$lang['index'][0][4] = "什麼是 " . SERVER_NAME . "";
+$lang['index'][0][5] = "Travian曾是風靡全球的網頁遊戲，此版本是由開源社區開發者貢獻的經典T3.6版本TravianZ，詳見GitHub。漢化文本由Muchen Fan完成。本伺服器僅供測試、交流、學習之用。請不要使用遊戲內的儲值介面。" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
+$lang['index'][0][6] = "點擊此處即刻開始遊玩 " . SERVER_NAME . "";
+$lang['index'][0][7] = "玩家總數";
+$lang['index'][0][8] = "活躍玩家";
+$lang['index'][0][9] = "在線玩家";
+$lang['index'][0][10] = "關於遊戲";
+$lang['index'][0][11] = "你將從一個小村莊的頭領開始，譜寫英雄的故事。";
+$lang['index'][0][12] = "建立村莊，發動戰爭，與鄰居建立貿易路線。";
+$lang['index'][0][13] = "與其他真實玩家或對抗、或合作，征服Travian遊戲世界。";
+$lang['index'][0][14] = "新聞";
+$lang['index'][0][15] = "FAQ";
+$lang['index'][0][16] = "截圖";
+$lang['forum'] = "論壇";
+$lang['register'] = "註冊";
+$lang['login'] = "登錄";
+$lang['screenshots']['title1']="村莊";
+$lang['screenshots']['desc1']="村莊建築";
+$lang['screenshots']['title2']="資源";
+$lang['screenshots']['desc2']="村莊資源分為木材、黏土、鐵礦和糧食";
+$lang['screenshots']['title3']="地圖";
+$lang['screenshots']['desc3']="你的村莊在地圖上的位置";
+$lang['screenshots']['title4']="建造建築";
+$lang['screenshots']['desc4']="建造建築和提升等級的方式";
+$lang['screenshots']['title5']="報告";
+$lang['screenshots']['desc5']="你的攻擊報告";
+$lang['screenshots']['title6']="統計";
+$lang['screenshots']['desc6']="在統計中查看你的排名";
+$lang['screenshots']['title7']="狼或羊";
+$lang['screenshots']['desc7']="你可以選擇發展軍事或是發展經濟、或是兩者齊頭並進";
 ?>
